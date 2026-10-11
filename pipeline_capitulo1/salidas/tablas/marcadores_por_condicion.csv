@@ -1,0 +1,1561 @@
+sujeto,condicion,señal,marcador,valor,unidad
+S2,baseline,chest_ECG,FC,72.5332400279916,lpm
+S2,baseline,chest_ECG,RMSSD,55.78907378657714,ms
+S2,baseline,chest_ECG,SDNN,71.19700976374887,ms
+S2,baseline,chest_ECG,pNN50,34.68501086169443,%
+S2,baseline,chest_ECG,% intervalos válidos,99.92769342010122,%
+S2,baseline,wrist_BVP,FC,73.60721968623747,lpm
+S2,baseline,wrist_BVP,RMSSD,149.97251761717519,ms
+S2,baseline,wrist_BVP,SDNN,135.29898030625776,ms
+S2,baseline,wrist_BVP,pNN50,49.802761341222876,%
+S2,baseline,wrist_BVP,% intervalos válidos,77.23749119097957,%
+S2,baseline,chest_EDA,SCL,2.0488751551761157,µS
+S2,baseline,chest_EDA,SCR por minuto,0.1048951048951049,1/min
+S2,baseline,chest_EDA,Amplitud SCR,0.4241175581125969,µS
+S2,baseline,wrist_EDA,SCL,0.2641770631749712,µS
+S2,baseline,wrist_EDA,SCR por minuto,0.3146853146853147,1/min
+S2,baseline,wrist_EDA,Amplitud SCR,0.3164887942322132,µS
+S2,baseline,chest_Resp,Frecuencia respiratoria,21.869397721302793,rpm
+S2,baseline,chest_Resp,Amplitud respiratoria,4.4029209293701035,u.a.
+S2,baseline,chest_Resp,Variabilidad respiratoria (CV),0.21158622158475723,
+S2,baseline,chest_Temp,Temperatura media,28.917550377078822,°C
+S2,baseline,chest_Temp,Pendiente de temperatura,0.08222590532009745,°C/min
+S2,baseline,wrist_TEMP,Temperatura media,35.7862081077549,°C
+S2,baseline,wrist_TEMP,Pendiente de temperatura,-0.008764555443290137,°C/min
+S2,baseline,chest_EMG,RMS de EMG,0.007997089439585407,mV
+S2,baseline,chest_ACC,Índice de movimiento,0.005592885810818354,g
+S2,baseline,wrist_ACC,Índice de movimiento,0.025522965801902307,g
+S2,stress,chest_ECG,FC,76.96398917701161,lpm
+S2,stress,chest_ECG,RMSSD,38.86650886354509,ms
+S2,stress,chest_ECG,SDNN,70.78990278131083,ms
+S2,stress,chest_ECG,pNN50,16.624365482233504,%
+S2,stress,chest_ECG,% intervalos válidos,100.0,%
+S2,stress,wrist_BVP,FC,71.72838149653884,lpm
+S2,stress,wrist_BVP,RMSSD,354.7739959867175,ms
+S2,stress,wrist_BVP,SDNN,273.47150872393536,ms
+S2,stress,wrist_BVP,pNN50,82.33082706766918,%
+S2,stress,wrist_BVP,% intervalos válidos,51.98776758409785,%
+S2,stress,chest_EDA,SCL,1.7532733803517715,µS
+S2,stress,chest_EDA,SCR por minuto,2.5365853658536586,1/min
+S2,stress,chest_EDA,Amplitud SCR,0.14300085611010807,µS
+S2,stress,wrist_EDA,SCL,0.8431568630221699,µS
+S2,stress,wrist_EDA,SCR por minuto,4.390243902439025,1/min
+S2,stress,wrist_EDA,Amplitud SCR,0.06165993071277096,µS
+S2,stress,chest_Resp,Frecuencia respiratoria,18.393386660173128,rpm
+S2,stress,chest_Resp,Amplitud respiratoria,7.6981798826884,u.a.
+S2,stress,chest_Resp,Variabilidad respiratoria (CV),0.47662262267784306,
+S2,stress,chest_Temp,Temperatura media,31.21831316676566,°C
+S2,stress,chest_Temp,Pendiente de temperatura,-0.023782905540153262,°C/min
+S2,stress,wrist_TEMP,Temperatura media,33.44207619147572,°C
+S2,stress,wrist_TEMP,Pendiente de temperatura,-0.1547422343652332,°C/min
+S2,stress,chest_EMG,RMS de EMG,0.008470521862542909,mV
+S2,stress,chest_ACC,Índice de movimiento,0.00904665372241667,g
+S2,stress,wrist_ACC,Índice de movimiento,0.02373600239246493,g
+S2,amusement,chest_ECG,FC,66.22275789848057,lpm
+S2,amusement,chest_ECG,RMSSD,66.72465259306536,ms
+S2,amusement,chest_ECG,SDNN,79.75520013688991,ms
+S2,amusement,chest_ECG,pNN50,36.68341708542713,%
+S2,amusement,chest_ECG,% intervalos válidos,100.0,%
+S2,amusement,wrist_BVP,FC,69.05041842451068,lpm
+S2,amusement,wrist_BVP,RMSSD,232.35146199550235,ms
+S2,amusement,wrist_BVP,SDNN,187.7606512189175,ms
+S2,amusement,wrist_BVP,pNN50,71.49122807017544,%
+S2,amusement,wrist_BVP,% intervalos válidos,65.0,%
+S2,amusement,chest_EDA,SCL,0.7327073745894389,µS
+S2,amusement,chest_EDA,SCR por minuto,0.994475138121547,1/min
+S2,amusement,chest_EDA,Amplitud SCR,0.026223462410914486,µS
+S2,amusement,wrist_EDA,SCL,0.1980493109164085,µS
+S2,amusement,wrist_EDA,SCR por minuto,1.4917127071823204,1/min
+S2,amusement,wrist_EDA,Amplitud SCR,0.04587304498376931,µS
+S2,amusement,chest_Resp,Frecuencia respiratoria,21.744000942743845,rpm
+S2,amusement,chest_Resp,Amplitud respiratoria,5.6871232090033885,u.a.
+S2,amusement,chest_Resp,Variabilidad respiratoria (CV),0.1912662718415249,
+S2,amusement,chest_Temp,Temperatura media,32.19505834316022,°C
+S2,amusement,chest_Temp,Pendiente de temperatura,0.1611131915904495,°C/min
+S2,amusement,wrist_TEMP,Temperatura media,34.190879366015864,°C
+S2,amusement,wrist_TEMP,Pendiente de temperatura,-0.06467781191897863,°C/min
+S2,amusement,chest_EMG,RMS de EMG,0.007986334262181649,mV
+S2,amusement,chest_ACC,Índice de movimiento,0.00316976883994719,g
+S2,amusement,wrist_ACC,Índice de movimiento,0.012180660754946244,g
+S2,meditation,chest_ECG,FC,67.0682343154658,lpm
+S2,meditation,chest_ECG,RMSSD,60.776203252228534,ms
+S2,meditation,chest_ECG,SDNN,74.19808520842055,ms
+S2,meditation,chest_ECG,pNN50,38.30034924330617,%
+S2,meditation,chest_ECG,% intervalos válidos,100.0,%
+S2,meditation,wrist_BVP,FC,68.03013550692962,lpm
+S2,meditation,wrist_BVP,RMSSD,81.54555928425387,ms
+S2,meditation,wrist_BVP,SDNN,99.2157617891804,ms
+S2,meditation,wrist_BVP,pNN50,36.17021276595745,%
+S2,meditation,wrist_BVP,% intervalos válidos,83.71810449574727,%
+S2,meditation,chest_EDA,SCL,0.709508828566473,µS
+S2,meditation,chest_EDA,SCR por minuto,0.0,1/min
+S2,meditation,chest_EDA,Amplitud SCR,,µS
+S2,meditation,wrist_EDA,SCL,0.20876121523601404,µS
+S2,meditation,wrist_EDA,SCR por minuto,0.1562502906441418,1/min
+S2,meditation,wrist_EDA,Amplitud SCR,0.018726571142733524,µS
+S2,meditation,chest_Resp,Frecuencia respiratoria,16.695101510976286,rpm
+S2,meditation,chest_Resp,Amplitud respiratoria,3.547882210724056,u.a.
+S2,meditation,chest_Resp,Variabilidad respiratoria (CV),0.28745230386119225,
+S2,meditation,chest_Temp,Temperatura media,31.711058471972745,°C
+S2,meditation,chest_Temp,Pendiente de temperatura,-0.022853617564937284,°C/min
+S2,meditation,wrist_TEMP,Temperatura media,34.08578278745214,°C
+S2,meditation,wrist_TEMP,Pendiente de temperatura,0.12537524642664355,°C/min
+S2,meditation,chest_EMG,RMS de EMG,0.006025476448636861,mV
+S2,meditation,chest_ACC,Índice de movimiento,0.004141003734351519,g
+S2,meditation,wrist_ACC,Índice de movimiento,0.004746051048979645,g
+S3,baseline,chest_ECG,FC,54.38130083440815,lpm
+S3,baseline,chest_ECG,RMSSD,120.69603484408395,ms
+S3,baseline,chest_ECG,SDNN,124.86134027566811,ms
+S3,baseline,chest_ECG,pNN50,66.18217054263566,%
+S3,baseline,chest_ECG,% intervalos válidos,100.0,%
+S3,baseline,wrist_BVP,FC,57.79610714973983,lpm
+S3,baseline,wrist_BVP,RMSSD,229.21666135192928,ms
+S3,baseline,wrist_BVP,SDNN,224.20404406152238,ms
+S3,baseline,wrist_BVP,pNN50,77.15959004392387,%
+S3,baseline,wrist_BVP,% intervalos válidos,66.92373607540702,%
+S3,baseline,chest_EDA,SCL,6.966000886285377,µS
+S3,baseline,chest_EDA,SCR por minuto,0.10526315789473684,1/min
+S3,baseline,chest_EDA,Amplitud SCR,0.28977717020738086,µS
+S3,baseline,wrist_EDA,SCL,1.6537013017501911,µS
+S3,baseline,wrist_EDA,SCR por minuto,0.2631578947368421,1/min
+S3,baseline,wrist_EDA,Amplitud SCR,0.6540469958240682,µS
+S3,baseline,chest_Resp,Frecuencia respiratoria,14.133853289139717,rpm
+S3,baseline,chest_Resp,Amplitud respiratoria,6.1823968529606645,u.a.
+S3,baseline,chest_Resp,Variabilidad respiratoria (CV),0.2600217497889454,
+S3,baseline,chest_Temp,Temperatura media,31.363094346565113,°C
+S3,baseline,chest_Temp,Pendiente de temperatura,-0.005526091714933336,°C/min
+S3,baseline,wrist_TEMP,Temperatura media,33.00702198513767,°C
+S3,baseline,wrist_TEMP,Pendiente de temperatura,0.03888485661076388,°C/min
+S3,baseline,chest_EMG,RMS de EMG,0.015753996395505964,mV
+S3,baseline,chest_ACC,Índice de movimiento,0.0039407353180362596,g
+S3,baseline,wrist_ACC,Índice de movimiento,0.014117261693534517,g
+S3,stress,chest_ECG,FC,86.67868114963397,lpm
+S3,stress,chest_ECG,RMSSD,56.13527297036487,ms
+S3,stress,chest_ECG,SDNN,135.03278897491958,ms
+S3,stress,chest_ECG,pNN50,22.149837133550488,%
+S3,stress,chest_ECG,% intervalos válidos,99.89177489177489,%
+S3,stress,wrist_BVP,FC,80.80054832076765,lpm
+S3,stress,wrist_BVP,RMSSD,255.2969676435901,ms
+S3,stress,wrist_BVP,SDNN,228.1383015934896,ms
+S3,stress,wrist_BVP,pNN50,70.49180327868852,%
+S3,stress,wrist_BVP,% intervalos válidos,50.66006600660066,%
+S3,stress,chest_EDA,SCL,8.194709436845354,µS
+S3,stress,chest_EDA,SCR por minuto,2.25,1/min
+S3,stress,chest_EDA,Amplitud SCR,0.40643945289755506,µS
+S3,stress,wrist_EDA,SCL,2.4935115526453733,µS
+S3,stress,wrist_EDA,SCR por minuto,2.53125,1/min
+S3,stress,wrist_EDA,Amplitud SCR,0.5055703597101218,µS
+S3,stress,chest_Resp,Frecuencia respiratoria,13.357980564823768,rpm
+S3,stress,chest_Resp,Amplitud respiratoria,12.177961256587878,u.a.
+S3,stress,chest_Resp,Variabilidad respiratoria (CV),0.3302236934687223,
+S3,stress,chest_Temp,Temperatura media,32.57041942551732,°C
+S3,stress,chest_Temp,Pendiente de temperatura,-0.1229793926376112,°C/min
+S3,stress,wrist_TEMP,Temperatura media,32.25497847571969,°C
+S3,stress,wrist_TEMP,Pendiente de temperatura,-0.07981111672183391,°C/min
+S3,stress,chest_EMG,RMS de EMG,0.026970117040036712,mV
+S3,stress,chest_ACC,Índice de movimiento,0.01894120713573102,g
+S3,stress,wrist_ACC,Índice de movimiento,0.05072583077437685,g
+S3,amusement,chest_ECG,FC,55.151466709295825,lpm
+S3,amusement,chest_ECG,RMSSD,120.8302387920739,ms
+S3,amusement,chest_ECG,SDNN,156.04474599791692,ms
+S3,amusement,chest_ECG,pNN50,63.95348837209303,%
+S3,amusement,chest_ECG,% intervalos válidos,100.0,%
+S3,amusement,wrist_BVP,FC,60.75949367088607,lpm
+S3,amusement,wrist_BVP,RMSSD,265.72200026270144,ms
+S3,amusement,wrist_BVP,SDNN,263.00157909692604,ms
+S3,amusement,wrist_BVP,pNN50,81.66666666666667,%
+S3,amusement,wrist_BVP,% intervalos válidos,55.412371134020624,%
+S3,amusement,chest_EDA,SCL,7.965772737318171,µS
+S3,amusement,chest_EDA,SCR por minuto,1.6,1/min
+S3,amusement,chest_EDA,Amplitud SCR,0.033158099171437624,µS
+S3,amusement,wrist_EDA,SCL,0.3265111434549247,µS
+S3,amusement,wrist_EDA,SCR por minuto,0.16,1/min
+S3,amusement,wrist_EDA,Amplitud SCR,0.840263982520874,µS
+S3,amusement,chest_Resp,Frecuencia respiratoria,16.839257297676173,rpm
+S3,amusement,chest_Resp,Amplitud respiratoria,6.491059037573856,u.a.
+S3,amusement,chest_Resp,Variabilidad respiratoria (CV),0.4740148692735205,
+S3,amusement,chest_Temp,Temperatura media,33.18796469624837,°C
+S3,amusement,chest_Temp,Pendiente de temperatura,0.02935384220631045,°C/min
+S3,amusement,wrist_TEMP,Temperatura media,30.880539388020832,°C
+S3,amusement,wrist_TEMP,Pendiente de temperatura,0.038520383190322784,°C/min
+S3,amusement,chest_EMG,RMS de EMG,0.009011740893125534,mV
+S3,amusement,chest_ACC,Índice de movimiento,0.008699351961025968,g
+S3,amusement,wrist_ACC,Índice de movimiento,0.010947901336359792,g
+S3,meditation,chest_ECG,FC,52.13306637917758,lpm
+S3,meditation,chest_ECG,RMSSD,173.21362994533865,ms
+S3,meditation,chest_ECG,SDNN,192.92858700579313,ms
+S3,meditation,chest_ECG,pNN50,61.390532544378694,%
+S3,meditation,chest_ECG,% intervalos válidos,100.0,%
+S3,meditation,wrist_BVP,FC,52.14949294376286,lpm
+S3,meditation,wrist_BVP,RMSSD,185.24192782198207,ms
+S3,meditation,wrist_BVP,SDNN,203.9991151312917,ms
+S3,meditation,wrist_BVP,pNN50,68.23204419889503,%
+S3,meditation,wrist_BVP,% intervalos válidos,79.13223140495867,%
+S3,meditation,chest_EDA,SCL,7.221178478358433,µS
+S3,meditation,chest_EDA,SCR por minuto,2.769225697388833,1/min
+S3,meditation,chest_EDA,Amplitud SCR,0.014841074838478583,µS
+S3,meditation,wrist_EDA,SCL,0.40787800264521434,µS
+S3,meditation,wrist_EDA,SCR por minuto,0.0,1/min
+S3,meditation,wrist_EDA,Amplitud SCR,,µS
+S3,meditation,chest_Resp,Frecuencia respiratoria,7.768938787443336,rpm
+S3,meditation,chest_Resp,Amplitud respiratoria,9.87874455817721,u.a.
+S3,meditation,chest_Resp,Variabilidad respiratoria (CV),0.3204799176129261,
+S3,meditation,chest_Temp,Temperatura media,33.10827591235821,°C
+S3,meditation,chest_Temp,Pendiente de temperatura,0.02015782550457512,°C/min
+S3,meditation,wrist_TEMP,Temperatura media,30.768179816466112,°C
+S3,meditation,wrist_TEMP,Pendiente de temperatura,-0.03851189214518938,°C/min
+S3,meditation,chest_EMG,RMS de EMG,0.006161860170705507,mV
+S3,meditation,chest_ACC,Índice de movimiento,0.0038112551393285872,g
+S3,meditation,wrist_ACC,Índice de movimiento,0.0038018759749477034,g
+S4,baseline,chest_ECG,FC,60.52716973542805,lpm
+S4,baseline,chest_ECG,RMSSD,87.01732247016717,ms
+S4,baseline,chest_ECG,SDNN,107.27091598448239,ms
+S4,baseline,chest_ECG,pNN50,54.841473864610116,%
+S4,baseline,chest_ECG,% intervalos válidos,100.0,%
+S4,baseline,wrist_BVP,FC,61.45497380072302,lpm
+S4,baseline,wrist_BVP,RMSSD,217.84899730295564,ms
+S4,baseline,wrist_BVP,SDNN,168.55975261466733,ms
+S4,baseline,wrist_BVP,pNN50,67.91907514450867,%
+S4,baseline,wrist_BVP,% intervalos válidos,65.5029093931837,%
+S4,baseline,chest_EDA,SCL,1.2788862404491692,µS
+S4,baseline,chest_EDA,SCR por minuto,0.05181340758276884,1/min
+S4,baseline,chest_EDA,Amplitud SCR,0.014794126672244608,µS
+S4,baseline,wrist_EDA,SCL,0.13341761184630235,µS
+S4,baseline,wrist_EDA,SCR por minuto,0.05181340758276884,1/min
+S4,baseline,wrist_EDA,Amplitud SCR,0.014156234704012139,µS
+S4,baseline,chest_Resp,Frecuencia respiratoria,18.20730956619046,rpm
+S4,baseline,chest_Resp,Amplitud respiratoria,3.6995345680844536,u.a.
+S4,baseline,chest_Resp,Variabilidad respiratoria (CV),0.23253648694455492,
+S4,baseline,chest_Temp,Temperatura media,32.815024541449674,°C
+S4,baseline,chest_Temp,Pendiente de temperatura,0.013153855807225499,°C/min
+S4,baseline,wrist_TEMP,Temperatura media,32.992272578784636,°C
+S4,baseline,wrist_TEMP,Pendiente de temperatura,0.015538866794365717,°C/min
+S4,baseline,chest_EMG,RMS de EMG,0.007987316448116009,mV
+S4,baseline,chest_ACC,Índice de movimiento,0.00442264805063734,g
+S4,baseline,wrist_ACC,Índice de movimiento,0.011215501813120051,g
+S4,stress,chest_ECG,FC,79.61027792910625,lpm
+S4,stress,chest_ECG,RMSSD,42.584404797377466,ms
+S4,stress,chest_ECG,SDNN,83.49380763567837,ms
+S4,stress,chest_ECG,pNN50,20.92746730083234,%
+S4,stress,chest_ECG,% intervalos válidos,100.0,%
+S4,stress,wrist_BVP,FC,75.19743178170144,lpm
+S4,stress,wrist_BVP,RMSSD,285.5509619172239,ms
+S4,stress,wrist_BVP,SDNN,226.85676612250435,ms
+S4,stress,wrist_BVP,pNN50,81.48148148148148,%
+S4,stress,wrist_BVP,% intervalos válidos,61.07634543178973,%
+S4,stress,chest_EDA,SCL,3.932605575820159,µS
+S4,stress,chest_EDA,SCR por minuto,5.858267716535432,1/min
+S4,stress,chest_EDA,Amplitud SCR,0.25271259766212195,µS
+S4,stress,wrist_EDA,SCL,2.1960636364856034,µS
+S4,stress,wrist_EDA,SCR por minuto,5.196850393700787,1/min
+S4,stress,wrist_EDA,Amplitud SCR,0.2633570909314677,µS
+S4,stress,chest_Resp,Frecuencia respiratoria,20.58495356371089,rpm
+S4,stress,chest_Resp,Amplitud respiratoria,5.377694370019254,u.a.
+S4,stress,chest_Resp,Variabilidad respiratoria (CV),0.4258813603821565,
+S4,stress,chest_Temp,Temperatura media,33.599914534260904,°C
+S4,stress,chest_Temp,Pendiente de temperatura,0.03625861242393301,°C/min
+S4,stress,wrist_TEMP,Temperatura media,32.46162665659987,°C
+S4,stress,wrist_TEMP,Pendiente de temperatura,-0.053034857015925856,°C/min
+S4,stress,chest_EMG,RMS de EMG,0.012882639600631348,mV
+S4,stress,chest_ACC,Índice de movimiento,0.010321552009325417,g
+S4,stress,wrist_ACC,Índice de movimiento,0.033674449092473864,g
+S4,amusement,chest_ECG,FC,62.04864122301441,lpm
+S4,amusement,chest_ECG,RMSSD,73.10204811614726,ms
+S4,amusement,chest_ECG,SDNN,88.41378412097478,ms
+S4,amusement,chest_ECG,pNN50,45.05208333333333,%
+S4,amusement,chest_ECG,% intervalos válidos,100.0,%
+S4,amusement,wrist_BVP,FC,62.10030706243603,lpm
+S4,amusement,wrist_BVP,RMSSD,100.56859667765015,ms
+S4,amusement,wrist_BVP,SDNN,100.25174103611143,ms
+S4,amusement,wrist_BVP,pNN50,43.050847457627114,%
+S4,amusement,wrist_BVP,% intervalos válidos,82.07792207792208,%
+S4,amusement,chest_EDA,SCL,1.371310687111118,µS
+S4,amusement,chest_EDA,SCR por minuto,0.0,1/min
+S4,amusement,chest_EDA,Amplitud SCR,,µS
+S4,amusement,wrist_EDA,SCL,0.17368061126715764,µS
+S4,amusement,wrist_EDA,SCR por minuto,0.16129032258064516,1/min
+S4,amusement,wrist_EDA,Amplitud SCR,0.011668904902177032,µS
+S4,amusement,chest_Resp,Frecuencia respiratoria,18.8651388100522,rpm
+S4,amusement,chest_Resp,Amplitud respiratoria,3.544001908193935,u.a.
+S4,amusement,chest_Resp,Variabilidad respiratoria (CV),0.24965914344380524,
+S4,amusement,chest_Temp,Temperatura media,32.89092394100722,°C
+S4,amusement,chest_Temp,Pendiente de temperatura,0.05529241830485576,°C/min
+S4,amusement,wrist_TEMP,Temperatura media,32.771098767557454,°C
+S4,amusement,wrist_TEMP,Pendiente de temperatura,-0.014960006684204184,°C/min
+S4,amusement,chest_EMG,RMS de EMG,0.006883867209531888,mV
+S4,amusement,chest_ACC,Índice de movimiento,0.004350915737231062,g
+S4,amusement,wrist_ACC,Índice de movimiento,0.007838241309981292,g
+S4,meditation,chest_ECG,FC,62.637877100519944,lpm
+S4,meditation,chest_ECG,RMSSD,83.47519024124153,ms
+S4,meditation,chest_ECG,SDNN,113.54896331365975,ms
+S4,meditation,chest_ECG,pNN50,48.095238095238095,%
+S4,meditation,chest_ECG,% intervalos válidos,100.0,%
+S4,meditation,wrist_BVP,FC,65.07997065297138,lpm
+S4,meditation,wrist_BVP,RMSSD,227.14907984262285,ms
+S4,meditation,wrist_BVP,SDNN,180.1095577045419,ms
+S4,meditation,wrist_BVP,pNN50,65.48223350253807,%
+S4,meditation,wrist_BVP,% intervalos válidos,54.22535211267606,%
+S4,meditation,chest_EDA,SCL,1.9829204257558528,µS
+S4,meditation,chest_EDA,SCR por minuto,0.2236024844720497,1/min
+S4,meditation,chest_EDA,Amplitud SCR,0.0466855523174182,µS
+S4,meditation,wrist_EDA,SCL,0.17110156186614572,µS
+S4,meditation,wrist_EDA,SCR por minuto,0.07453416149068323,1/min
+S4,meditation,wrist_EDA,Amplitud SCR,0.06464977066980364,µS
+S4,meditation,chest_Resp,Frecuencia respiratoria,14.515400207365337,rpm
+S4,meditation,chest_Resp,Amplitud respiratoria,4.828846231361644,u.a.
+S4,meditation,chest_Resp,Variabilidad respiratoria (CV),0.282228250926446,
+S4,meditation,chest_Temp,Temperatura media,33.463762384023724,°C
+S4,meditation,chest_Temp,Pendiente de temperatura,-0.0006507314150427119,°C/min
+S4,meditation,wrist_TEMP,Temperatura media,32.15183749050828,°C
+S4,meditation,wrist_TEMP,Pendiente de temperatura,-0.025880823554609928,°C/min
+S4,meditation,chest_EMG,RMS de EMG,0.006784074070360164,mV
+S4,meditation,chest_ACC,Índice de movimiento,0.004556475819510795,g
+S4,meditation,wrist_ACC,Índice de movimiento,0.009104461729686578,g
+S5,baseline,chest_ECG,FC,62.826850402717874,lpm
+S5,baseline,chest_ECG,RMSSD,30.108738764265002,ms
+S5,baseline,chest_ECG,SDNN,62.56783839008284,ms
+S5,baseline,chest_ECG,pNN50,9.257781324820431,%
+S5,baseline,chest_ECG,% intervalos válidos,100.0,%
+S5,baseline,wrist_BVP,FC,65.33096800393272,lpm
+S5,baseline,wrist_BVP,RMSSD,215.90193742237193,ms
+S5,baseline,wrist_BVP,SDNN,185.92238056872435,ms
+S5,baseline,wrist_BVP,pNN50,50.79136690647482,%
+S5,baseline,wrist_BVP,% intervalos válidos,64.19354838709678,%
+S5,baseline,chest_EDA,SCL,4.081558415817137,µS
+S5,baseline,chest_EDA,SCR por minuto,0.3005008347245409,1/min
+S5,baseline,chest_EDA,Amplitud SCR,0.12409557405866012,µS
+S5,baseline,wrist_EDA,SCL,0.7765471007113441,µS
+S5,baseline,wrist_EDA,SCR por minuto,0.5509181969949917,1/min
+S5,baseline,wrist_EDA,Amplitud SCR,0.23627248677043386,µS
+S5,baseline,chest_Resp,Frecuencia respiratoria,15.513230563753329,rpm
+S5,baseline,chest_Resp,Amplitud respiratoria,6.658532089014915,u.a.
+S5,baseline,chest_Resp,Variabilidad respiratoria (CV),0.21078512850674658,
+S5,baseline,chest_Temp,Temperatura media,34.68210539873534,°C
+S5,baseline,chest_Temp,Pendiente de temperatura,0.01903804778398977,°C/min
+S5,baseline,wrist_TEMP,Temperatura media,35.02016124980079,°C
+S5,baseline,wrist_TEMP,Pendiente de temperatura,0.07639639774268846,°C/min
+S5,baseline,chest_EMG,RMS de EMG,0.011344105704242087,mV
+S5,baseline,chest_ACC,Índice de movimiento,0.0035217879465893874,g
+S5,baseline,wrist_ACC,Índice de movimiento,0.013698008051544995,g
+S5,stress,chest_ECG,FC,89.71634584490207,lpm
+S5,stress,chest_ECG,RMSSD,16.878870335465898,ms
+S5,stress,chest_ECG,SDNN,55.730763562453454,ms
+S5,stress,chest_ECG,pNN50,0.8307372793354102,%
+S5,stress,chest_ECG,% intervalos válidos,100.0,%
+S5,stress,wrist_BVP,FC,87.30795102919413,lpm
+S5,stress,wrist_BVP,RMSSD,294.7262986582522,ms
+S5,stress,wrist_BVP,SDNN,227.08826763235558,ms
+S5,stress,wrist_BVP,pNN50,84.375,%
+S5,stress,wrist_BVP,% intervalos válidos,56.9023569023569,%
+S5,stress,chest_EDA,SCL,9.234841697145066,µS
+S5,stress,chest_EDA,SCR por minuto,4.930232558139535,1/min
+S5,stress,chest_EDA,Amplitud SCR,0.4521158647408824,µS
+S5,stress,wrist_EDA,SCL,3.41703335703253,µS
+S5,stress,wrist_EDA,SCR por minuto,5.395348837209302,1/min
+S5,stress,wrist_EDA,Amplitud SCR,0.1571831189973679,µS
+S5,stress,chest_Resp,Frecuencia respiratoria,16.223902316682732,rpm
+S5,stress,chest_Resp,Amplitud respiratoria,15.615279670466077,u.a.
+S5,stress,chest_Resp,Variabilidad respiratoria (CV),0.4690715618271573,
+S5,stress,chest_Temp,Temperatura media,34.73424394297045,°C
+S5,stress,chest_Temp,Pendiente de temperatura,-0.0301521972257249,°C/min
+S5,stress,wrist_TEMP,Temperatura media,33.8335828988127,°C
+S5,stress,wrist_TEMP,Pendiente de temperatura,-0.052915368142257876,°C/min
+S5,stress,chest_EMG,RMS de EMG,0.010974301739465878,mV
+S5,stress,chest_ACC,Índice de movimiento,0.008343946233945862,g
+S5,stress,wrist_ACC,Índice de movimiento,0.011361883563267486,g
+S5,amusement,chest_ECG,FC,66.37660861679046,lpm
+S5,amusement,chest_ECG,RMSSD,25.7436455905156,ms
+S5,amusement,chest_ECG,SDNN,62.63455137177424,ms
+S5,amusement,chest_ECG,pNN50,5.097087378640777,%
+S5,amusement,chest_ECG,% intervalos válidos,100.0,%
+S5,amusement,wrist_BVP,FC,66.77114911628439,lpm
+S5,amusement,wrist_BVP,RMSSD,205.91626640678678,ms
+S5,amusement,wrist_BVP,SDNN,148.69300247154138,ms
+S5,amusement,wrist_BVP,pNN50,40.520446096654275,%
+S5,amusement,wrist_BVP,% intervalos válidos,70.20785219399538,%
+S5,amusement,chest_EDA,SCL,5.58489193918148,µS
+S5,amusement,chest_EDA,SCR por minuto,2.406417112299465,1/min
+S5,amusement,chest_EDA,Amplitud SCR,0.24365952634264462,µS
+S5,amusement,wrist_EDA,SCL,1.3032484496836305,µS
+S5,amusement,wrist_EDA,SCR por minuto,1.2834224598930482,1/min
+S5,amusement,wrist_EDA,Amplitud SCR,0.053369503575535326,µS
+S5,amusement,chest_Resp,Frecuencia respiratoria,17.200902769903514,rpm
+S5,amusement,chest_Resp,Amplitud respiratoria,6.23162569740031,u.a.
+S5,amusement,chest_Resp,Variabilidad respiratoria (CV),0.3272159721358728,
+S5,amusement,chest_Temp,Temperatura media,34.917046508687065,°C
+S5,amusement,chest_Temp,Pendiente de temperatura,0.006836803252889099,°C/min
+S5,amusement,wrist_TEMP,Temperatura media,34.679020710807436,°C
+S5,amusement,wrist_TEMP,Pendiente de temperatura,0.10963254789084594,°C/min
+S5,amusement,chest_EMG,RMS de EMG,0.006622153833909408,mV
+S5,amusement,chest_ACC,Índice de movimiento,0.0035192269623655586,g
+S5,amusement,wrist_ACC,Índice de movimiento,0.0018889425932188102,g
+S5,meditation,chest_ECG,FC,63.958124456620546,lpm
+S5,meditation,chest_ECG,RMSSD,30.446621151191994,ms
+S5,meditation,chest_ECG,SDNN,62.56996934165653,ms
+S5,meditation,chest_ECG,pNN50,9.940828402366863,%
+S5,meditation,chest_ECG,% intervalos válidos,100.0,%
+S5,meditation,wrist_BVP,FC,66.64212463844333,lpm
+S5,meditation,wrist_BVP,RMSSD,355.74540094856127,ms
+S5,meditation,wrist_BVP,SDNN,236.59628720957946,ms
+S5,meditation,wrist_BVP,pNN50,81.57894736842105,%
+S5,meditation,wrist_BVP,% intervalos válidos,24.90566037735849,%
+S5,meditation,chest_EDA,SCL,6.505900211709554,µS
+S5,meditation,chest_EDA,SCR por minuto,0.6801007556675064,1/min
+S5,meditation,chest_EDA,Amplitud SCR,0.1809661804703642,µS
+S5,meditation,wrist_EDA,SCL,1.0718307520384003,µS
+S5,meditation,wrist_EDA,SCR por minuto,0.6045340050377834,1/min
+S5,meditation,wrist_EDA,Amplitud SCR,0.03783710823436195,µS
+S5,meditation,chest_Resp,Frecuencia respiratoria,10.415383702488914,rpm
+S5,meditation,chest_Resp,Amplitud respiratoria,8.766442810335468,u.a.
+S5,meditation,chest_Resp,Variabilidad respiratoria (CV),0.29607931809850485,
+S5,meditation,chest_Temp,Temperatura media,34.85287890806607,°C
+S5,meditation,chest_Temp,Pendiente de temperatura,0.013963119088585474,°C/min
+S5,meditation,wrist_TEMP,Temperatura media,32.343727975408136,°C
+S5,meditation,wrist_TEMP,Pendiente de temperatura,0.07982304351583724,°C/min
+S5,meditation,chest_EMG,RMS de EMG,0.006075054727628433,mV
+S5,meditation,chest_ACC,Índice de movimiento,0.0032790034626855725,g
+S5,meditation,wrist_ACC,Índice de movimiento,0.006086743853915275,g
+S6,baseline,chest_ECG,FC,69.24107645399121,lpm
+S6,baseline,chest_ECG,RMSSD,37.20900682746929,ms
+S6,baseline,chest_ECG,SDNN,78.97260634422886,ms
+S6,baseline,chest_ECG,pNN50,14.548126377663484,%
+S6,baseline,chest_ECG,% intervalos válidos,100.0,%
+S6,baseline,wrist_BVP,FC,69.3710087595366,lpm
+S6,baseline,wrist_BVP,RMSSD,248.3428836316873,ms
+S6,baseline,wrist_BVP,SDNN,176.69122845949343,ms
+S6,baseline,wrist_BVP,pNN50,61.393152302243216,%
+S6,baseline,wrist_BVP,% intervalos válidos,69.59361393323658,%
+S6,baseline,chest_EDA,SCL,6.822822194206005,µS
+S6,baseline,chest_EDA,SCR por minuto,0.3559322033898305,1/min
+S6,baseline,chest_EDA,Amplitud SCR,0.03338352347863556,µS
+S6,baseline,wrist_EDA,SCL,0.6903487383178548,µS
+S6,baseline,wrist_EDA,SCR por minuto,0.6101694915254237,1/min
+S6,baseline,wrist_EDA,Amplitud SCR,0.10832066763530053,µS
+S6,baseline,chest_Resp,Frecuencia respiratoria,16.010008992648423,rpm
+S6,baseline,chest_Resp,Amplitud respiratoria,6.2155296102466195,u.a.
+S6,baseline,chest_Resp,Variabilidad respiratoria (CV),0.2672941731495328,
+S6,baseline,chest_Temp,Temperatura media,33.71108195013919,°C
+S6,baseline,chest_Temp,Pendiente de temperatura,0.019097663561566287,°C/min
+S6,baseline,wrist_TEMP,Temperatura media,33.293953843844136,°C
+S6,baseline,wrist_TEMP,Pendiente de temperatura,0.1401551271643019,°C/min
+S6,baseline,chest_EMG,RMS de EMG,0.013987008778780887,mV
+S6,baseline,chest_ACC,Índice de movimiento,0.005439651471866547,g
+S6,baseline,wrist_ACC,Índice de movimiento,0.015442399594573792,g
+S6,stress,chest_ECG,FC,78.62023508733385,lpm
+S6,stress,chest_ECG,RMSSD,49.81151070986526,ms
+S6,stress,chest_ECG,SDNN,80.90893398514915,ms
+S6,stress,chest_ECG,pNN50,27.262044653348998,%
+S6,stress,chest_ECG,% intervalos válidos,100.0,%
+S6,stress,wrist_BVP,FC,70.90857305610936,lpm
+S6,stress,wrist_BVP,RMSSD,278.1453484639984,ms
+S6,stress,wrist_BVP,SDNN,243.47500500643991,ms
+S6,stress,wrist_BVP,pNN50,81.16883116883116,%
+S6,stress,wrist_BVP,% intervalos válidos,56.62299854439592,%
+S6,stress,chest_EDA,SCL,9.134052528790463,µS
+S6,stress,chest_EDA,SCR por minuto,5.3538461538461535,1/min
+S6,stress,chest_EDA,Amplitud SCR,0.27863365582523497,µS
+S6,stress,wrist_EDA,SCL,8.109118029878735,µS
+S6,stress,wrist_EDA,SCR por minuto,3.7846153846153845,1/min
+S6,stress,wrist_EDA,Amplitud SCR,0.47465293649374896,µS
+S6,stress,chest_Resp,Frecuencia respiratoria,14.980580778645997,rpm
+S6,stress,chest_Resp,Amplitud respiratoria,9.851942034887857,u.a.
+S6,stress,chest_Resp,Variabilidad respiratoria (CV),0.3356411916898352,
+S6,stress,chest_Temp,Temperatura media,33.8495489355234,°C
+S6,stress,chest_Temp,Pendiente de temperatura,-0.04752278331874476,°C/min
+S6,stress,wrist_TEMP,Temperatura media,32.9195163668119,°C
+S6,stress,wrist_TEMP,Pendiente de temperatura,-0.1036656721346617,°C/min
+S6,stress,chest_EMG,RMS de EMG,0.008712922851375949,mV
+S6,stress,chest_ACC,Índice de movimiento,0.008462360329979744,g
+S6,stress,wrist_ACC,Índice de movimiento,0.021789973762665445,g
+S6,amusement,chest_ECG,FC,65.85323674653652,lpm
+S6,amusement,chest_ECG,RMSSD,40.41435341424369,ms
+S6,amusement,chest_ECG,SDNN,75.61377282246167,ms
+S6,amusement,chest_ECG,pNN50,17.69041769041769,%
+S6,amusement,chest_ECG,% intervalos válidos,100.0,%
+S6,amusement,wrist_BVP,FC,65.01795792714212,lpm
+S6,amusement,wrist_BVP,RMSSD,297.4485994295341,ms
+S6,amusement,wrist_BVP,SDNN,203.8080104821931,ms
+S6,amusement,wrist_BVP,pNN50,77.4390243902439,%
+S6,amusement,wrist_BVP,% intervalos válidos,57.55813953488372,%
+S6,amusement,chest_EDA,SCL,8.36969572702772,µS
+S6,amusement,chest_EDA,SCR por minuto,3.3870967741935485,1/min
+S6,amusement,chest_EDA,Amplitud SCR,0.028687421240630357,µS
+S6,amusement,wrist_EDA,SCL,1.8860748895962156,µS
+S6,amusement,wrist_EDA,SCR por minuto,2.5806451612903225,1/min
+S6,amusement,wrist_EDA,Amplitud SCR,0.1134288501826968,µS
+S6,amusement,chest_Resp,Frecuencia respiratoria,18.813285322225234,rpm
+S6,amusement,chest_Resp,Amplitud respiratoria,6.325218577842111,u.a.
+S6,amusement,chest_Resp,Variabilidad respiratoria (CV),0.4258372086385114,
+S6,amusement,chest_Temp,Temperatura media,34.22392765680949,°C
+S6,amusement,chest_Temp,Pendiente de temperatura,-0.005745456061238655,°C/min
+S6,amusement,wrist_TEMP,Temperatura media,32.36590101641993,°C
+S6,amusement,wrist_TEMP,Pendiente de temperatura,-0.01777268747062286,°C/min
+S6,amusement,chest_EMG,RMS de EMG,0.008675716012485967,mV
+S6,amusement,chest_ACC,Índice de movimiento,0.006545142936883294,g
+S6,amusement,wrist_ACC,Índice de movimiento,0.01052765869223576,g
+S6,meditation,chest_ECG,FC,66.75569361183284,lpm
+S6,meditation,chest_ECG,RMSSD,54.75096016038408,ms
+S6,meditation,chest_ECG,SDNN,88.62915334972286,ms
+S6,meditation,chest_ECG,pNN50,28.114285714285714,%
+S6,meditation,chest_ECG,% intervalos válidos,100.0,%
+S6,meditation,wrist_BVP,FC,66.28370539637898,lpm
+S6,meditation,wrist_BVP,RMSSD,155.3476610980973,ms
+S6,meditation,wrist_BVP,SDNN,128.73250326417292,ms
+S6,meditation,wrist_BVP,pNN50,52.843601895734594,%
+S6,meditation,wrist_BVP,% intervalos válidos,58.591885441527445,%
+S6,meditation,chest_EDA,SCL,8.358534989365578,µS
+S6,meditation,chest_EDA,SCR por minuto,2.4396442185514613,1/min
+S6,meditation,chest_EDA,Amplitud SCR,0.037387466344106876,µS
+S6,meditation,wrist_EDA,SCL,3.1363107221250215,µS
+S6,meditation,wrist_EDA,SCR por minuto,1.0673443456162643,1/min
+S6,meditation,wrist_EDA,Amplitud SCR,0.3921306704244726,µS
+S6,meditation,chest_Resp,Frecuencia respiratoria,8.739483384828056,rpm
+S6,meditation,chest_Resp,Amplitud respiratoria,8.857086699917202,u.a.
+S6,meditation,chest_Resp,Variabilidad respiratoria (CV),0.2805877465241121,
+S6,meditation,chest_Temp,Temperatura media,34.06811816568145,°C
+S6,meditation,chest_Temp,Pendiente de temperatura,-0.03871516002665829,°C/min
+S6,meditation,wrist_TEMP,Temperatura media,31.81871916772147,°C
+S6,meditation,wrist_TEMP,Pendiente de temperatura,-0.009422741030710526,°C/min
+S6,meditation,chest_EMG,RMS de EMG,0.005983470866321722,mV
+S6,meditation,chest_ACC,Índice de movimiento,0.004554725954651695,g
+S6,meditation,wrist_ACC,Índice de movimiento,0.006900171137321384,g
+S7,baseline,chest_ECG,FC,70.55984218874006,lpm
+S7,baseline,chest_ECG,RMSSD,54.78165014094291,ms
+S7,baseline,chest_ECG,SDNN,96.86130750363844,ms
+S7,baseline,chest_ECG,pNN50,27.977044476327116,%
+S7,baseline,chest_ECG,% intervalos válidos,100.0,%
+S7,baseline,wrist_BVP,FC,71.61237966425333,lpm
+S7,baseline,wrist_BVP,RMSSD,138.15138194164533,ms
+S7,baseline,wrist_BVP,SDNN,139.24726590283086,ms
+S7,baseline,wrist_BVP,pNN50,42.45454545454545,%
+S7,baseline,wrist_BVP,% intervalos válidos,81.84357541899442,%
+S7,baseline,chest_EDA,SCL,11.488758480198596,µS
+S7,baseline,chest_EDA,SCR por minuto,1.5177065767284992,1/min
+S7,baseline,chest_EDA,Amplitud SCR,0.022502581947083277,µS
+S7,baseline,wrist_EDA,SCL,4.605352725101291,µS
+S7,baseline,wrist_EDA,SCR por minuto,1.0623946037099494,1/min
+S7,baseline,wrist_EDA,Amplitud SCR,0.18180399658805152,µS
+S7,baseline,chest_Resp,Frecuencia respiratoria,16.91136881354538,rpm
+S7,baseline,chest_Resp,Amplitud respiratoria,6.041181353022377,u.a.
+S7,baseline,chest_Resp,Variabilidad respiratoria (CV),0.2074831321174337,
+S7,baseline,chest_Temp,Temperatura media,34.48362944299013,°C
+S7,baseline,chest_Temp,Pendiente de temperatura,0.014281881636355265,°C/min
+S7,baseline,wrist_TEMP,Temperatura media,33.96117025844966,°C
+S7,baseline,wrist_TEMP,Pendiente de temperatura,0.051456689233352795,°C/min
+S7,baseline,chest_EMG,RMS de EMG,0.01323837699542532,mV
+S7,baseline,chest_ACC,Índice de movimiento,0.006204362539338925,g
+S7,baseline,wrist_ACC,Índice de movimiento,0.009519518018543774,g
+S7,stress,chest_ECG,FC,86.11536099168015,lpm
+S7,stress,chest_ECG,RMSSD,101.92829596160905,ms
+S7,stress,chest_ECG,SDNN,143.16051233688137,ms
+S7,stress,chest_ECG,pNN50,38.6041439476554,%
+S7,stress,chest_ECG,% intervalos válidos,100.0,%
+S7,stress,wrist_BVP,FC,80.52190121155638,lpm
+S7,stress,wrist_BVP,RMSSD,280.1994013084488,ms
+S7,stress,wrist_BVP,SDNN,236.26524454441744,ms
+S7,stress,wrist_BVP,pNN50,79.56204379562044,%
+S7,stress,wrist_BVP,% intervalos válidos,58.64928909952607,%
+S7,stress,chest_EDA,SCL,17.871469783381947,µS
+S7,stress,chest_EDA,SCR por minuto,8.34375,1/min
+S7,stress,chest_EDA,Amplitud SCR,0.16209566798163771,µS
+S7,stress,wrist_EDA,SCL,5.805108591035429,µS
+S7,stress,wrist_EDA,SCR por minuto,2.8125,1/min
+S7,stress,wrist_EDA,Amplitud SCR,0.3598066637860782,µS
+S7,stress,chest_Resp,Frecuencia respiratoria,19.77759830668566,rpm
+S7,stress,chest_Resp,Amplitud respiratoria,11.666581684477284,u.a.
+S7,stress,chest_Resp,Variabilidad respiratoria (CV),0.4557488227953486,
+S7,stress,chest_Temp,Temperatura media,34.91017479300499,°C
+S7,stress,chest_Temp,Pendiente de temperatura,0.02437335783929648,°C/min
+S7,stress,wrist_TEMP,Temperatura media,32.87983175367117,°C
+S7,stress,wrist_TEMP,Pendiente de temperatura,-0.06369677840858143,°C/min
+S7,stress,chest_EMG,RMS de EMG,0.012557854999795382,mV
+S7,stress,chest_ACC,Índice de movimiento,0.016946954542254387,g
+S7,stress,wrist_ACC,Índice de movimiento,0.059810892973739274,g
+S7,amusement,chest_ECG,FC,58.377681019190454,lpm
+S7,amusement,chest_ECG,RMSSD,75.00021670686841,ms
+S7,amusement,chest_ECG,SDNN,80.77902757201282,ms
+S7,amusement,chest_ECG,pNN50,44.59833795013851,%
+S7,amusement,chest_ECG,% intervalos válidos,100.0,%
+S7,amusement,wrist_BVP,FC,58.87351393490548,lpm
+S7,amusement,wrist_BVP,RMSSD,175.42030249387687,ms
+S7,amusement,wrist_BVP,SDNN,136.9575610264074,ms
+S7,amusement,wrist_BVP,pNN50,60.57692307692307,%
+S7,amusement,wrist_BVP,% intervalos válidos,65.19337016574586,%
+S7,amusement,chest_EDA,SCL,11.7580327540258,µS
+S7,amusement,chest_EDA,SCR por minuto,1.1290279223198068,1/min
+S7,amusement,chest_EDA,Amplitud SCR,0.04757538645282775,µS
+S7,amusement,wrist_EDA,SCL,4.436067304892449,µS
+S7,amusement,wrist_EDA,SCR por minuto,3.2257940637708766,1/min
+S7,amusement,wrist_EDA,Amplitud SCR,0.0718882826983974,µS
+S7,amusement,chest_Resp,Frecuencia respiratoria,19.056607626174827,rpm
+S7,amusement,chest_Resp,Amplitud respiratoria,6.964440798386931,u.a.
+S7,amusement,chest_Resp,Variabilidad respiratoria (CV),0.34993808508513063,
+S7,amusement,chest_Temp,Temperatura media,34.43560068068966,°C
+S7,amusement,chest_Temp,Pendiente de temperatura,-0.002333012322662731,°C/min
+S7,amusement,wrist_TEMP,Temperatura media,33.22698555197767,°C
+S7,amusement,wrist_TEMP,Pendiente de temperatura,-0.0691568235526133,°C/min
+S7,amusement,chest_EMG,RMS de EMG,0.006248980533063752,mV
+S7,amusement,chest_ACC,Índice de movimiento,0.005001588030442876,g
+S7,amusement,wrist_ACC,Índice de movimiento,0.00290324054338718,g
+S7,meditation,chest_ECG,FC,60.43176391266388,lpm
+S7,meditation,chest_ECG,RMSSD,117.01630136990264,ms
+S7,meditation,chest_ECG,SDNN,149.78926709852163,ms
+S7,meditation,chest_ECG,pNN50,50.44025157232704,%
+S7,meditation,chest_ECG,% intervalos válidos,100.0,%
+S7,meditation,wrist_BVP,FC,61.564237741026936,lpm
+S7,meditation,wrist_BVP,RMSSD,158.93493782778972,ms
+S7,meditation,wrist_BVP,SDNN,172.28133083400147,ms
+S7,meditation,wrist_BVP,pNN50,57.45682888540031,%
+S7,meditation,wrist_BVP,% intervalos válidos,86.38132295719845,%
+S7,meditation,chest_EDA,SCL,12.149782383494834,µS
+S7,meditation,chest_EDA,SCR por minuto,2.0506292032021642,1/min
+S7,meditation,chest_EDA,Amplitud SCR,0.02041305952042469,µS
+S7,meditation,wrist_EDA,SCL,4.45038645998126,µS
+S7,meditation,wrist_EDA,SCR por minuto,0.45569537848936986,1/min
+S7,meditation,wrist_EDA,Amplitud SCR,0.015360722548793004,µS
+S7,meditation,chest_Resp,Frecuencia respiratoria,7.006680611903438,rpm
+S7,meditation,chest_Resp,Amplitud respiratoria,9.164762913462628,u.a.
+S7,meditation,chest_Resp,Variabilidad respiratoria (CV),0.310742627356984,
+S7,meditation,chest_Temp,Temperatura media,34.6735744500462,°C
+S7,meditation,chest_Temp,Pendiente de temperatura,-0.0116565911415283,°C/min
+S7,meditation,wrist_TEMP,Temperatura media,31.944449517696718,°C
+S7,meditation,wrist_TEMP,Pendiente de temperatura,0.20210665839757452,°C/min
+S7,meditation,chest_EMG,RMS de EMG,0.0063203961365190155,mV
+S7,meditation,chest_ACC,Índice de movimiento,0.004806382166548879,g
+S7,meditation,wrist_ACC,Índice de movimiento,0.00331361058436929,g
+S8,baseline,chest_ECG,FC,70.78657453013055,lpm
+S8,baseline,chest_ECG,RMSSD,51.50577636214312,ms
+S8,baseline,chest_ECG,SDNN,71.36402040607436,ms
+S8,baseline,chest_ECG,pNN50,31.712626995645866,%
+S8,baseline,chest_ECG,% intervalos válidos,100.0,%
+S8,baseline,wrist_BVP,FC,70.68807478677877,lpm
+S8,baseline,wrist_BVP,RMSSD,157.96987094707927,ms
+S8,baseline,wrist_BVP,SDNN,135.73659260460067,ms
+S8,baseline,wrist_BVP,pNN50,54.80274442538593,%
+S8,baseline,wrist_BVP,% intervalos válidos,88.09005083514887,%
+S8,baseline,chest_EDA,SCL,3.8721784493956837,µS
+S8,baseline,chest_EDA,SCR por minuto,0.5132591958939264,1/min
+S8,baseline,chest_EDA,Amplitud SCR,0.017564852255381076,µS
+S8,baseline,wrist_EDA,SCL,0.3306690348539168,µS
+S8,baseline,wrist_EDA,SCR por minuto,0.2566295979469632,1/min
+S8,baseline,wrist_EDA,Amplitud SCR,0.024791434536879937,µS
+S8,baseline,chest_Resp,Frecuencia respiratoria,17.0045474301583,rpm
+S8,baseline,chest_Resp,Amplitud respiratoria,4.781685495673262,u.a.
+S8,baseline,chest_Resp,Variabilidad respiratoria (CV),0.4827196993611145,
+S8,baseline,chest_Temp,Temperatura media,34.79353195301379,°C
+S8,baseline,chest_Temp,Pendiente de temperatura,0.034505528162652316,°C/min
+S8,baseline,wrist_TEMP,Temperatura media,33.65239599405751,°C
+S8,baseline,wrist_TEMP,Pendiente de temperatura,0.0026479009267557176,°C/min
+S8,baseline,chest_EMG,RMS de EMG,0.011256384144443939,mV
+S8,baseline,chest_ACC,Índice de movimiento,0.004145125345620936,g
+S8,baseline,wrist_ACC,Índice de movimiento,0.015752267950258345,g
+S8,stress,chest_ECG,FC,91.2914937095515,lpm
+S8,stress,chest_ECG,RMSSD,45.01642466072348,ms
+S8,stress,chest_ECG,SDNN,74.23317575305556,ms
+S8,stress,chest_ECG,pNN50,15.225933202357563,%
+S8,stress,chest_ECG,% intervalos válidos,100.0,%
+S8,stress,wrist_BVP,FC,73.52657793745406,lpm
+S8,stress,wrist_BVP,RMSSD,311.1236781655076,ms
+S8,stress,wrist_BVP,SDNN,258.67611707315996,ms
+S8,stress,wrist_BVP,pNN50,80.98958333333334,%
+S8,stress,wrist_BVP,% intervalos válidos,60.51612903225806,%
+S8,stress,chest_EDA,SCL,3.8277909941486343,µS
+S8,stress,chest_EDA,SCR por minuto,2.0597014925373136,1/min
+S8,stress,chest_EDA,Amplitud SCR,0.042872227711215266,µS
+S8,stress,wrist_EDA,SCL,0.7452070784964409,µS
+S8,stress,wrist_EDA,SCR por minuto,4.119402985074627,1/min
+S8,stress,wrist_EDA,Amplitud SCR,0.0466200422276959,µS
+S8,stress,chest_Resp,Frecuencia respiratoria,15.155915328050924,rpm
+S8,stress,chest_Resp,Amplitud respiratoria,11.275476371948148,u.a.
+S8,stress,chest_Resp,Variabilidad respiratoria (CV),0.4308148134958063,
+S8,stress,chest_Temp,Temperatura media,35.10415803710026,°C
+S8,stress,chest_Temp,Pendiente de temperatura,0.03649472141394001,°C/min
+S8,stress,wrist_TEMP,Temperatura media,32.41011436519338,°C
+S8,stress,wrist_TEMP,Pendiente de temperatura,-0.08051737509131822,°C/min
+S8,stress,chest_EMG,RMS de EMG,0.014066205318468108,mV
+S8,stress,chest_ACC,Índice de movimiento,0.01893049636091203,g
+S8,stress,wrist_ACC,Índice de movimiento,0.09066365866871223,g
+S8,amusement,chest_ECG,FC,69.17322301907947,lpm
+S8,amusement,chest_ECG,RMSSD,77.78830508606846,ms
+S8,amusement,chest_ECG,SDNN,110.91124233548256,ms
+S8,amusement,chest_ECG,pNN50,50.117647058823536,%
+S8,amusement,chest_ECG,% intervalos válidos,100.0,%
+S8,amusement,wrist_BVP,FC,68.13712677189102,lpm
+S8,amusement,wrist_BVP,RMSSD,182.47566340107554,ms
+S8,amusement,wrist_BVP,SDNN,156.4873585460688,ms
+S8,amusement,wrist_BVP,pNN50,75.07598784194529,%
+S8,amusement,wrist_BVP,% intervalos válidos,83.451536643026,%
+S8,amusement,chest_EDA,SCL,3.732120334589885,µS
+S8,amusement,chest_EDA,SCR por minuto,0.48648836481994134,1/min
+S8,amusement,chest_EDA,Amplitud SCR,0.01473911069242513,µS
+S8,amusement,wrist_EDA,SCL,0.2536603751936218,µS
+S8,amusement,wrist_EDA,SCR por minuto,0.0,1/min
+S8,amusement,wrist_EDA,Amplitud SCR,,µS
+S8,amusement,chest_Resp,Frecuencia respiratoria,16.24265873766066,rpm
+S8,amusement,chest_Resp,Amplitud respiratoria,9.184812670880621,u.a.
+S8,amusement,chest_Resp,Variabilidad respiratoria (CV),0.35506346686050927,
+S8,amusement,chest_Temp,Temperatura media,35.01489326116201,°C
+S8,amusement,chest_Temp,Pendiente de temperatura,0.006583889869392976,°C/min
+S8,amusement,wrist_TEMP,Temperatura media,33.47556790790043,°C
+S8,amusement,wrist_TEMP,Pendiente de temperatura,-0.02522548028103104,°C/min
+S8,amusement,chest_EMG,RMS de EMG,0.009331506636383867,mV
+S8,amusement,chest_ACC,Índice de movimiento,0.004283035928509324,g
+S8,amusement,wrist_ACC,Índice de movimiento,0.0072014319034763895,g
+S8,meditation,chest_ECG,FC,69.43393519929712,lpm
+S8,meditation,chest_ECG,RMSSD,77.71590295673978,ms
+S8,meditation,chest_ECG,SDNN,120.532705219671,ms
+S8,meditation,chest_ECG,pNN50,40.933767643865366,%
+S8,meditation,chest_ECG,% intervalos válidos,100.0,%
+S8,meditation,wrist_BVP,FC,69.50772547610492,lpm
+S8,meditation,wrist_BVP,RMSSD,180.4628258303684,ms
+S8,meditation,wrist_BVP,SDNN,159.7979937734485,ms
+S8,meditation,wrist_BVP,pNN50,65.05867014341591,%
+S8,meditation,wrist_BVP,% intervalos válidos,87.13513513513513,%
+S8,meditation,chest_EDA,SCL,3.643361898410913,µS
+S8,meditation,chest_EDA,SCR por minuto,1.2060301507537687,1/min
+S8,meditation,chest_EDA,Amplitud SCR,0.012469027719779993,µS
+S8,meditation,wrist_EDA,SCL,0.2716464030778434,µS
+S8,meditation,wrist_EDA,SCR por minuto,0.1507537688442211,1/min
+S8,meditation,wrist_EDA,Amplitud SCR,0.014387365214817982,µS
+S8,meditation,chest_Resp,Frecuencia respiratoria,8.09874483790337,rpm
+S8,meditation,chest_Resp,Amplitud respiratoria,9.828406859506318,u.a.
+S8,meditation,chest_Resp,Variabilidad respiratoria (CV),0.34092414402065424,
+S8,meditation,chest_Temp,Temperatura media,35.242324200107824,°C
+S8,meditation,chest_Temp,Pendiente de temperatura,0.0168078094598777,°C/min
+S8,meditation,wrist_TEMP,Temperatura media,32.57042185146006,°C
+S8,meditation,wrist_TEMP,Pendiente de temperatura,-0.025357582055015024,°C/min
+S8,meditation,chest_EMG,RMS de EMG,0.006190730071183172,mV
+S8,meditation,chest_ACC,Índice de movimiento,0.0038146599972925977,g
+S8,meditation,wrist_ACC,Índice de movimiento,0.005002959922567537,g
+S9,baseline,chest_ECG,FC,76.63222127381363,lpm
+S9,baseline,chest_ECG,RMSSD,35.71098448032295,ms
+S9,baseline,chest_ECG,SDNN,67.73322033904257,ms
+S9,baseline,chest_ECG,pNN50,12.284196547144754,%
+S9,baseline,chest_ECG,% intervalos válidos,100.0,%
+S9,baseline,wrist_BVP,FC,74.64233879328219,lpm
+S9,baseline,wrist_BVP,RMSSD,193.2486696463567,ms
+S9,baseline,wrist_BVP,SDNN,157.71381709878847,ms
+S9,baseline,wrist_BVP,pNN50,41.13680154142582,%
+S9,baseline,wrist_BVP,% intervalos válidos,76.47858599592115,%
+S9,baseline,chest_EDA,SCL,1.7464317023193634,µS
+S9,baseline,chest_EDA,SCR por minuto,0.6610169491525424,1/min
+S9,baseline,chest_EDA,Amplitud SCR,0.0238967811957698,µS
+S9,baseline,wrist_EDA,SCL,0.26468459705390424,µS
+S9,baseline,wrist_EDA,SCR por minuto,0.30508474576271183,1/min
+S9,baseline,wrist_EDA,Amplitud SCR,0.023927231781428592,µS
+S9,baseline,chest_Resp,Frecuencia respiratoria,13.862686894295246,rpm
+S9,baseline,chest_Resp,Amplitud respiratoria,8.462290221464265,u.a.
+S9,baseline,chest_Resp,Variabilidad respiratoria (CV),0.25942560257299735,
+S9,baseline,chest_Temp,Temperatura media,34.16161232641188,°C
+S9,baseline,chest_Temp,Pendiente de temperatura,0.028127727932724257,°C/min
+S9,baseline,wrist_TEMP,Temperatura media,34.007904692019444,°C
+S9,baseline,wrist_TEMP,Pendiente de temperatura,0.08521346826602155,°C/min
+S9,baseline,chest_EMG,RMS de EMG,0.012733352404892824,mV
+S9,baseline,chest_ACC,Índice de movimiento,0.004965870119720082,g
+S9,baseline,wrist_ACC,Índice de movimiento,0.017515862960769416,g
+S9,stress,chest_ECG,FC,79.90190752611402,lpm
+S9,stress,chest_ECG,RMSSD,42.464781711493316,ms
+S9,stress,chest_ECG,SDNN,82.95242837270655,ms
+S9,stress,chest_ECG,pNN50,19.603267211201867,%
+S9,stress,chest_ECG,% intervalos válidos,100.0,%
+S9,stress,wrist_BVP,FC,79.49862685726357,lpm
+S9,stress,wrist_BVP,RMSSD,227.14130064789904,ms
+S9,stress,wrist_BVP,SDNN,175.73620370459804,ms
+S9,stress,wrist_BVP,pNN50,63.005780346820806,%
+S9,stress,wrist_BVP,% intervalos válidos,71.61997563946407,%
+S9,stress,chest_EDA,SCL,3.3305200837975972,µS
+S9,stress,chest_EDA,SCR por minuto,6.046511627906977,1/min
+S9,stress,chest_EDA,Amplitud SCR,0.054589435477943954,µS
+S9,stress,wrist_EDA,SCL,1.0581768365754771,µS
+S9,stress,wrist_EDA,SCR por minuto,5.488372093023256,1/min
+S9,stress,wrist_EDA,Amplitud SCR,0.03176757065854331,µS
+S9,stress,chest_Resp,Frecuencia respiratoria,15.647143930857386,rpm
+S9,stress,chest_Resp,Amplitud respiratoria,10.045604302156447,u.a.
+S9,stress,chest_Resp,Variabilidad respiratoria (CV),0.4741475470704648,
+S9,stress,chest_Temp,Temperatura media,34.568130481335544,°C
+S9,stress,chest_Temp,Pendiente de temperatura,0.02517302868977987,°C/min
+S9,stress,wrist_TEMP,Temperatura media,33.120624245044795,°C
+S9,stress,wrist_TEMP,Pendiente de temperatura,-0.074391194605502,°C/min
+S9,stress,chest_EMG,RMS de EMG,0.011496323889280244,mV
+S9,stress,chest_ACC,Índice de movimiento,0.008013747217288862,g
+S9,stress,wrist_ACC,Índice de movimiento,0.017318417780077172,g
+S9,amusement,chest_ECG,FC,85.7136280986029,lpm
+S9,amusement,chest_ECG,RMSSD,15.464296665152967,ms
+S9,amusement,chest_ECG,SDNN,43.81575176286577,ms
+S9,amusement,chest_ECG,pNN50,1.3182674199623352,%
+S9,amusement,chest_ECG,% intervalos válidos,100.0,%
+S9,amusement,wrist_BVP,FC,86.05248036774564,lpm
+S9,amusement,wrist_BVP,RMSSD,56.91289212305671,ms
+S9,amusement,wrist_BVP,SDNN,66.39296167671063,ms
+S9,amusement,wrist_BVP,pNN50,9.57683741648107,%
+S9,amusement,wrist_BVP,% intervalos válidos,88.8045540796964,%
+S9,amusement,chest_EDA,SCL,3.1125585146418584,µS
+S9,amusement,chest_EDA,SCR por minuto,2.903225806451613,1/min
+S9,amusement,chest_EDA,Amplitud SCR,0.038839714630895986,µS
+S9,amusement,wrist_EDA,SCL,0.3905293908721762,µS
+S9,amusement,wrist_EDA,SCR por minuto,0.48387096774193544,1/min
+S9,amusement,wrist_EDA,Amplitud SCR,0.012146503138679382,µS
+S9,amusement,chest_Resp,Frecuencia respiratoria,15.577997240855563,rpm
+S9,amusement,chest_Resp,Amplitud respiratoria,11.352322056889534,u.a.
+S9,amusement,chest_Resp,Variabilidad respiratoria (CV),0.23512546259776068,
+S9,amusement,chest_Temp,Temperatura media,34.83193149617923,°C
+S9,amusement,chest_Temp,Pendiente de temperatura,-0.0027687048460537287,°C/min
+S9,amusement,wrist_TEMP,Temperatura media,31.117595548270852,°C
+S9,amusement,wrist_TEMP,Pendiente de temperatura,-0.03815919365694933,°C/min
+S9,amusement,chest_EMG,RMS de EMG,0.01134782745840869,mV
+S9,amusement,chest_ACC,Índice de movimiento,0.0036603849049800284,g
+S9,amusement,wrist_ACC,Índice de movimiento,0.004173929302714203,g
+S9,meditation,chest_ECG,FC,72.26974940721148,lpm
+S9,meditation,chest_ECG,RMSSD,36.95514342079271,ms
+S9,meditation,chest_ECG,SDNN,72.4826057246204,ms
+S9,meditation,chest_ECG,pNN50,14.150943396226415,%
+S9,meditation,chest_ECG,% intervalos válidos,100.0,%
+S9,meditation,wrist_BVP,FC,72.42546942200777,lpm
+S9,meditation,wrist_BVP,RMSSD,46.55205743210639,ms
+S9,meditation,wrist_BVP,SDNN,76.17920637716065,ms
+S9,meditation,wrist_BVP,pNN50,16.213151927437643,%
+S9,meditation,wrist_BVP,% intervalos válidos,93.93939393939394,%
+S9,meditation,chest_EDA,SCL,2.86299602295666,µS
+S9,meditation,chest_EDA,SCR por minuto,0.15132408575031525,1/min
+S9,meditation,chest_EDA,Amplitud SCR,0.15030226661412027,µS
+S9,meditation,wrist_EDA,SCL,0.4312505190897402,µS
+S9,meditation,wrist_EDA,SCR por minuto,0.0,1/min
+S9,meditation,wrist_EDA,Amplitud SCR,,µS
+S9,meditation,chest_Resp,Frecuencia respiratoria,9.255336345186983,rpm
+S9,meditation,chest_Resp,Amplitud respiratoria,6.858802829161096,u.a.
+S9,meditation,chest_Resp,Variabilidad respiratoria (CV),0.4337551401160996,
+S9,meditation,chest_Temp,Temperatura media,34.881965961913295,°C
+S9,meditation,chest_Temp,Pendiente de temperatura,0.005552143270665721,°C/min
+S9,meditation,wrist_TEMP,Temperatura media,31.40849091937533,°C
+S9,meditation,wrist_TEMP,Pendiente de temperatura,-0.00024015190856201433,°C/min
+S9,meditation,chest_EMG,RMS de EMG,0.006216358226368117,mV
+S9,meditation,chest_ACC,Índice de movimiento,0.00698428004210836,g
+S9,meditation,wrist_ACC,Índice de movimiento,0.003773911874219278,g
+S10,baseline,chest_ECG,FC,98.72508542399716,lpm
+S10,baseline,chest_ECG,RMSSD,16.426067245729758,ms
+S10,baseline,chest_ECG,SDNN,44.86923433571125,ms
+S10,baseline,chest_ECG,pNN50,1.4425553838227718,%
+S10,baseline,chest_ECG,% intervalos válidos,100.0,%
+S10,baseline,wrist_BVP,FC,94.33851569375184,lpm
+S10,baseline,wrist_BVP,RMSSD,121.92755458508063,ms
+S10,baseline,wrist_BVP,SDNN,116.70435249324963,ms
+S10,baseline,wrist_BVP,pNN50,17.54244139046079,%
+S10,baseline,wrist_BVP,% intervalos válidos,77.50144592249856,%
+S10,baseline,chest_EDA,SCL,0.7874677712304783,µS
+S10,baseline,chest_EDA,SCR por minuto,0.0,1/min
+S10,baseline,chest_EDA,Amplitud SCR,,µS
+S10,baseline,wrist_EDA,SCL,0.3991373389764036,µS
+S10,baseline,wrist_EDA,SCR por minuto,0.30508474576271183,1/min
+S10,baseline,wrist_EDA,Amplitud SCR,0.05757410710468836,µS
+S10,baseline,chest_Resp,Frecuencia respiratoria,17.69879171924937,rpm
+S10,baseline,chest_Resp,Amplitud respiratoria,6.665511012918344,u.a.
+S10,baseline,chest_Resp,Variabilidad respiratoria (CV),0.2907149854396097,
+S10,baseline,chest_Temp,Temperatura media,34.29080124709566,°C
+S10,baseline,chest_Temp,Pendiente de temperatura,0.01156953721215343,°C/min
+S10,baseline,wrist_TEMP,Temperatura media,33.709797773522844,°C
+S10,baseline,wrist_TEMP,Pendiente de temperatura,0.04760636436612628,°C/min
+S10,baseline,chest_EMG,RMS de EMG,0.008369835284913463,mV
+S10,baseline,chest_ACC,Índice de movimiento,0.0050300675126629234,g
+S10,baseline,wrist_ACC,Índice de movimiento,0.01632751342354202,g
+S10,stress,chest_ECG,FC,107.40608666013881,lpm
+S10,stress,chest_ECG,RMSSD,27.26189975170193,ms
+S10,stress,chest_ECG,SDNN,71.30985835173655,ms
+S10,stress,chest_ECG,pNN50,3.7779491133384733,%
+S10,stress,chest_ECG,% intervalos válidos,100.0,%
+S10,stress,wrist_BVP,FC,98.28837034012751,lpm
+S10,stress,wrist_BVP,RMSSD,165.60432943157227,ms
+S10,stress,wrist_BVP,SDNN,152.1105472192322,ms
+S10,stress,wrist_BVP,pNN50,48.34710743801653,%
+S10,stress,wrist_BVP,% intervalos válidos,72.9632945389436,%
+S10,stress,chest_EDA,SCL,1.8322685453390397,µS
+S10,stress,chest_EDA,SCR por minuto,2.4,1/min
+S10,stress,chest_EDA,Amplitud SCR,0.034985948813218086,µS
+S10,stress,wrist_EDA,SCL,2.4275756587377852,µS
+S10,stress,wrist_EDA,SCR por minuto,1.7379310344827585,1/min
+S10,stress,wrist_EDA,Amplitud SCR,0.18070613467123492,µS
+S10,stress,chest_Resp,Frecuencia respiratoria,13.937453507602184,rpm
+S10,stress,chest_Resp,Amplitud respiratoria,10.893999251918935,u.a.
+S10,stress,chest_Resp,Variabilidad respiratoria (CV),0.43096692386539315,
+S10,stress,chest_Temp,Temperatura media,35.42587572821255,°C
+S10,stress,chest_Temp,Pendiente de temperatura,0.06478322958294769,°C/min
+S10,stress,wrist_TEMP,Temperatura media,33.43422485877728,°C
+S10,stress,wrist_TEMP,Pendiente de temperatura,-0.10782057770423224,°C/min
+S10,stress,chest_EMG,RMS de EMG,0.007770469327103989,mV
+S10,stress,chest_ACC,Índice de movimiento,0.010111665551406171,g
+S10,stress,wrist_ACC,Índice de movimiento,0.0231659919137054,g
+S10,amusement,chest_ECG,FC,75.98495818945152,lpm
+S10,amusement,chest_ECG,RMSSD,42.4110522302965,ms
+S10,amusement,chest_ECG,SDNN,76.53130325835748,ms
+S10,amusement,chest_ECG,pNN50,17.4468085106383,%
+S10,amusement,chest_ECG,% intervalos válidos,100.0,%
+S10,amusement,wrist_BVP,FC,77.31979695431471,lpm
+S10,amusement,wrist_BVP,RMSSD,133.63811160552,ms
+S10,amusement,wrist_BVP,SDNN,111.56534689722787,ms
+S10,amusement,wrist_BVP,pNN50,31.722054380664655,%
+S10,amusement,wrist_BVP,% intervalos válidos,75.95744680851064,%
+S10,amusement,chest_EDA,SCL,0.9203739844486577,µS
+S10,amusement,chest_EDA,SCR por minuto,0.0,1/min
+S10,amusement,chest_EDA,Amplitud SCR,,µS
+S10,amusement,wrist_EDA,SCL,0.4227067558983887,µS
+S10,amusement,wrist_EDA,SCR por minuto,0.0,1/min
+S10,amusement,wrist_EDA,Amplitud SCR,,µS
+S10,amusement,chest_Resp,Frecuencia respiratoria,17.74843074596278,rpm
+S10,amusement,chest_Resp,Amplitud respiratoria,6.925763587063214,u.a.
+S10,amusement,chest_Resp,Variabilidad respiratoria (CV),0.22322192378525568,
+S10,amusement,chest_Temp,Temperatura media,34.4047684695131,°C
+S10,amusement,chest_Temp,Pendiente de temperatura,-0.02213756826220845,°C/min
+S10,amusement,wrist_TEMP,Temperatura media,34.119639245412685,°C
+S10,amusement,wrist_TEMP,Pendiente de temperatura,0.01638213287182619,°C/min
+S10,amusement,chest_EMG,RMS de EMG,0.0068413979296887955,mV
+S10,amusement,chest_ACC,Índice de movimiento,0.0037415380209749466,g
+S10,amusement,wrist_ACC,Índice de movimiento,0.004624864354866226,g
+S10,meditation,chest_ECG,FC,76.5710262277768,lpm
+S10,meditation,chest_ECG,RMSSD,44.60841443956216,ms
+S10,meditation,chest_ECG,SDNN,75.81607486293714,ms
+S10,meditation,chest_ECG,pNN50,21.794871794871796,%
+S10,meditation,chest_ECG,% intervalos válidos,100.0,%
+S10,meditation,wrist_BVP,FC,77.84835788620084,lpm
+S10,meditation,wrist_BVP,RMSSD,90.86773644593542,ms
+S10,meditation,wrist_BVP,SDNN,92.8436725882356,ms
+S10,meditation,wrist_BVP,pNN50,31.421446384039903,%
+S10,meditation,wrist_BVP,% intervalos válidos,60.565275908479144,%
+S10,meditation,chest_EDA,SCL,1.3186138043377529,µS
+S10,meditation,chest_EDA,SCR por minuto,0.07537688442211055,1/min
+S10,meditation,chest_EDA,Amplitud SCR,0.01410730780223348,µS
+S10,meditation,wrist_EDA,SCL,0.6950928034069281,µS
+S10,meditation,wrist_EDA,SCR por minuto,0.0,1/min
+S10,meditation,wrist_EDA,Amplitud SCR,,µS
+S10,meditation,chest_Resp,Frecuencia respiratoria,10.75543749375147,rpm
+S10,meditation,chest_Resp,Amplitud respiratoria,9.71943243533846,u.a.
+S10,meditation,chest_Resp,Variabilidad respiratoria (CV),0.37651373254039644,
+S10,meditation,chest_Temp,Temperatura media,34.77567379318889,°C
+S10,meditation,chest_Temp,Pendiente de temperatura,0.018756266912266104,°C/min
+S10,meditation,wrist_TEMP,Temperatura media,32.97256490034075,°C
+S10,meditation,wrist_TEMP,Pendiente de temperatura,-0.03180472703497737,°C/min
+S10,meditation,chest_EMG,RMS de EMG,0.005987774102185764,mV
+S10,meditation,chest_ACC,Índice de movimiento,0.0037103618285881973,g
+S10,meditation,wrist_ACC,Índice de movimiento,0.005637697561736479,g
+S11,baseline,chest_ECG,FC,74.12159446884124,lpm
+S11,baseline,chest_ECG,RMSSD,48.700062676141606,ms
+S11,baseline,chest_ECG,SDNN,64.8486031795051,ms
+S11,baseline,chest_ECG,pNN50,29.855868222374742,%
+S11,baseline,chest_ECG,% intervalos válidos,100.0,%
+S11,baseline,wrist_BVP,FC,74.04860368941964,lpm
+S11,baseline,wrist_BVP,RMSSD,192.47244221007426,ms
+S11,baseline,wrist_BVP,SDNN,146.39183414277466,ms
+S11,baseline,wrist_BVP,pNN50,60.45918367346938,%
+S11,baseline,wrist_BVP,% intervalos válidos,85.33241946538726,%
+S11,baseline,chest_EDA,SCL,6.084292527824676,µS
+S11,baseline,chest_EDA,SCR por minuto,0.9152542372881355,1/min
+S11,baseline,chest_EDA,Amplitud SCR,0.016879130047723113,µS
+S11,baseline,wrist_EDA,SCL,3.0959654877894915,µS
+S11,baseline,wrist_EDA,SCR por minuto,0.7627118644067796,1/min
+S11,baseline,wrist_EDA,Amplitud SCR,0.3404397298033211,µS
+S11,baseline,chest_Resp,Frecuencia respiratoria,17.119232155861432,rpm
+S11,baseline,chest_Resp,Amplitud respiratoria,6.6922679231801165,u.a.
+S11,baseline,chest_Resp,Variabilidad respiratoria (CV),0.1864864001428776,
+S11,baseline,chest_Temp,Temperatura media,34.360056443133594,°C
+S11,baseline,chest_Temp,Pendiente de temperatura,0.05150245050923923,°C/min
+S11,baseline,wrist_TEMP,Temperatura media,34.267032336380524,°C
+S11,baseline,wrist_TEMP,Pendiente de temperatura,0.021552113232446123,°C/min
+S11,baseline,chest_EMG,RMS de EMG,0.009707786582441905,mV
+S11,baseline,chest_ACC,Índice de movimiento,0.004598006371396862,g
+S11,baseline,wrist_ACC,Índice de movimiento,0.020473255689101025,g
+S11,stress,chest_ECG,FC,124.67856602631976,lpm
+S11,stress,chest_ECG,RMSSD,7.183514398397536,ms
+S11,stress,chest_ECG,SDNN,28.498736943569433,ms
+S11,stress,chest_ECG,pNN50,0.141643059490085,%
+S11,stress,chest_ECG,% intervalos válidos,100.0,%
+S11,stress,wrist_BVP,FC,70.01787629603146,lpm
+S11,stress,wrist_BVP,RMSSD,439.03475337194817,ms
+S11,stress,wrist_BVP,SDNN,344.2935770044538,ms
+S11,stress,wrist_BVP,pNN50,88.43537414965986,%
+S11,stress,wrist_BVP,% intervalos válidos,41.63265306122449,%
+S11,stress,chest_EDA,SCL,6.937412569958428,µS
+S11,stress,chest_EDA,SCR por minuto,3.5294117647058822,1/min
+S11,stress,chest_EDA,Amplitud SCR,0.056333056921922656,µS
+S11,stress,wrist_EDA,SCL,3.1454561314033422,µS
+S11,stress,wrist_EDA,SCR por minuto,3.9705882352941173,1/min
+S11,stress,wrist_EDA,Amplitud SCR,0.26028624415339546,µS
+S11,stress,chest_Resp,Frecuencia respiratoria,16.0024686507155,rpm
+S11,stress,chest_Resp,Amplitud respiratoria,8.134889973391148,u.a.
+S11,stress,chest_Resp,Variabilidad respiratoria (CV),0.36934972747218164,
+S11,stress,chest_Temp,Temperatura media,34.56113746166229,°C
+S11,stress,chest_Temp,Pendiente de temperatura,-0.0007714107145478708,°C/min
+S11,stress,wrist_TEMP,Temperatura media,33.090201957085554,°C
+S11,stress,wrist_TEMP,Pendiente de temperatura,-0.11129633021205997,°C/min
+S11,stress,chest_EMG,RMS de EMG,0.010375303575796458,mV
+S11,stress,chest_ACC,Índice de movimiento,0.015211664302178714,g
+S11,stress,wrist_ACC,Índice de movimiento,0.10229836377341812,g
+S11,amusement,chest_ECG,FC,74.15829750244477,lpm
+S11,amusement,chest_ECG,RMSSD,63.967852721390365,ms
+S11,amusement,chest_ECG,SDNN,107.84578147286913,ms
+S11,amusement,chest_ECG,pNN50,31.938325991189426,%
+S11,amusement,chest_ECG,% intervalos válidos,100.0,%
+S11,amusement,wrist_BVP,FC,72.56111882139425,lpm
+S11,amusement,wrist_BVP,RMSSD,166.34673945282518,ms
+S11,amusement,wrist_BVP,SDNN,150.113624853014,ms
+S11,amusement,wrist_BVP,pNN50,64.6525679758308,%
+S11,amusement,wrist_BVP,% intervalos válidos,80.6378132118451,%
+S11,amusement,chest_EDA,SCL,6.315910379191636,µS
+S11,amusement,chest_EDA,SCR por minuto,1.467391304347826,1/min
+S11,amusement,chest_EDA,Amplitud SCR,0.02259895597501229,µS
+S11,amusement,wrist_EDA,SCL,2.599271316396412,µS
+S11,amusement,wrist_EDA,SCR por minuto,1.141304347826087,1/min
+S11,amusement,wrist_EDA,Amplitud SCR,0.04689150015542743,µS
+S11,amusement,chest_Resp,Frecuencia respiratoria,14.478722436745969,rpm
+S11,amusement,chest_Resp,Amplitud respiratoria,8.326293219509534,u.a.
+S11,amusement,chest_Resp,Variabilidad respiratoria (CV),0.374742710743475,
+S11,amusement,chest_Temp,Temperatura media,35.000017342360124,°C
+S11,amusement,chest_Temp,Pendiente de temperatura,0.021215984257587764,°C/min
+S11,amusement,wrist_TEMP,Temperatura media,31.717869819506355,°C
+S11,amusement,wrist_TEMP,Pendiente de temperatura,0.021957744604356403,°C/min
+S11,amusement,chest_EMG,RMS de EMG,0.0071143555200567634,mV
+S11,amusement,chest_ACC,Índice de movimiento,0.00580654639199328,g
+S11,amusement,wrist_ACC,Índice de movimiento,0.009786609204370017,g
+S11,meditation,chest_ECG,FC,84.76401441100266,lpm
+S11,meditation,chest_ECG,RMSSD,49.38140491314481,ms
+S11,meditation,chest_ECG,SDNN,103.58108788089491,ms
+S11,meditation,chest_ECG,pNN50,23.297491039426525,%
+S11,meditation,chest_ECG,% intervalos válidos,100.0,%
+S11,meditation,wrist_BVP,FC,79.80049875311721,lpm
+S11,meditation,wrist_BVP,RMSSD,179.59522503535942,ms
+S11,meditation,wrist_BVP,SDNN,165.97617629255745,ms
+S11,meditation,wrist_BVP,pNN50,47.07520891364902,%
+S11,meditation,wrist_BVP,% intervalos válidos,56.29139072847682,%
+S11,meditation,chest_EDA,SCL,6.417770916201492,µS
+S11,meditation,chest_EDA,SCR por minuto,3.565101020225718,1/min
+S11,meditation,chest_EDA,Amplitud SCR,0.02580942963150024,µS
+S11,meditation,wrist_EDA,SCL,2.6789892663879575,µS
+S11,meditation,wrist_EDA,SCR por minuto,0.4551192791777512,1/min
+S11,meditation,wrist_EDA,Amplitud SCR,0.04606479061490043,µS
+S11,meditation,chest_Resp,Frecuencia respiratoria,8.537666263776826,rpm
+S11,meditation,chest_Resp,Amplitud respiratoria,24.571413159370422,u.a.
+S11,meditation,chest_Resp,Variabilidad respiratoria (CV),0.3033952505459609,
+S11,meditation,chest_Temp,Temperatura media,34.98469440493963,°C
+S11,meditation,chest_Temp,Pendiente de temperatura,0.002328940732832332,°C/min
+S11,meditation,wrist_TEMP,Temperatura media,31.592519520206185,°C
+S11,meditation,wrist_TEMP,Pendiente de temperatura,-0.03342500630591486,°C/min
+S11,meditation,chest_EMG,RMS de EMG,0.007613192767778461,mV
+S11,meditation,chest_ACC,Índice de movimiento,0.006068055509876898,g
+S11,meditation,wrist_ACC,Índice de movimiento,0.006802383354369077,g
+S13,baseline,chest_ECG,FC,86.99201664742797,lpm
+S13,baseline,chest_ECG,RMSSD,27.758389293368857,ms
+S13,baseline,chest_ECG,SDNN,53.53866573603489,ms
+S13,baseline,chest_ECG,pNN50,5.207723815096547,%
+S13,baseline,chest_ECG,% intervalos válidos,100.0,%
+S13,baseline,wrist_BVP,FC,82.49353937028637,lpm
+S13,baseline,wrist_BVP,RMSSD,191.73608401143792,ms
+S13,baseline,wrist_BVP,SDNN,163.71191970846345,ms
+S13,baseline,wrist_BVP,pNN50,42.703670546105634,%
+S13,baseline,wrist_BVP,% intervalos válidos,78.1829814459373,%
+S13,baseline,chest_EDA,SCL,2.349501116584154,µS
+S13,baseline,chest_EDA,SCR por minuto,0.7627109410279165,1/min
+S13,baseline,chest_EDA,Amplitud SCR,0.0192773308645189,µS
+S13,baseline,wrist_EDA,SCL,4.898796873106886,µS
+S13,baseline,wrist_EDA,SCR por minuto,1.0169479213705552,1/min
+S13,baseline,wrist_EDA,Amplitud SCR,0.37069295095443605,µS
+S13,baseline,chest_Resp,Frecuencia respiratoria,15.753829235703927,rpm
+S13,baseline,chest_Resp,Amplitud respiratoria,10.62249029624061,u.a.
+S13,baseline,chest_Resp,Variabilidad respiratoria (CV),0.5154867301622041,
+S13,baseline,chest_Temp,Temperatura media,33.50516805567984,°C
+S13,baseline,chest_Temp,Pendiente de temperatura,0.04150183725999607,°C/min
+S13,baseline,wrist_TEMP,Temperatura media,34.80957176079184,°C
+S13,baseline,wrist_TEMP,Pendiente de temperatura,0.009979301102581734,°C/min
+S13,baseline,chest_EMG,RMS de EMG,0.010399833840310131,mV
+S13,baseline,chest_ACC,Índice de movimiento,0.006659196513548091,g
+S13,baseline,wrist_ACC,Índice de movimiento,0.02678821935670497,g
+S13,stress,chest_ECG,FC,108.41973927634126,lpm
+S13,stress,chest_ECG,RMSSD,20.01284671913718,ms
+S13,stress,chest_ECG,SDNN,63.72158941075901,ms
+S13,stress,chest_ECG,pNN50,3.16930775646372,%
+S13,stress,chest_ECG,% intervalos válidos,100.0,%
+S13,stress,wrist_BVP,FC,82.93183239524703,lpm
+S13,stress,wrist_BVP,RMSSD,283.7136667203539,ms
+S13,stress,wrist_BVP,SDNN,255.71233813698007,ms
+S13,stress,wrist_BVP,pNN50,69.6551724137931,%
+S13,stress,wrist_BVP,% intervalos válidos,60.51401869158879,%
+S13,stress,chest_EDA,SCL,4.514482691535048,µS
+S13,stress,chest_EDA,SCR por minuto,2.9819277108433737,1/min
+S13,stress,chest_EDA,Amplitud SCR,0.17365874239186618,µS
+S13,stress,wrist_EDA,SCL,12.286157280675603,µS
+S13,stress,wrist_EDA,SCR por minuto,2.8012048192771086,1/min
+S13,stress,wrist_EDA,Amplitud SCR,0.9165269254000359,µS
+S13,stress,chest_Resp,Frecuencia respiratoria,13.080289632387872,rpm
+S13,stress,chest_Resp,Amplitud respiratoria,18.783939651720893,u.a.
+S13,stress,chest_Resp,Variabilidad respiratoria (CV),0.41138889866361783,
+S13,stress,chest_Temp,Temperatura media,34.345657416136866,°C
+S13,stress,chest_Temp,Pendiente de temperatura,0.000931096707163988,°C/min
+S13,stress,wrist_TEMP,Temperatura media,33.6324537346162,°C
+S13,stress,wrist_TEMP,Pendiente de temperatura,-0.15144960698705054,°C/min
+S13,stress,chest_EMG,RMS de EMG,0.009402286781682577,mV
+S13,stress,chest_ACC,Índice de movimiento,0.016379445896088425,g
+S13,stress,wrist_ACC,Índice de movimiento,0.06594796469120554,g
+S13,amusement,chest_ECG,FC,86.39292699984665,lpm
+S13,amusement,chest_ECG,RMSSD,36.818425363243946,ms
+S13,amusement,chest_ECG,SDNN,67.07764685757358,ms
+S13,amusement,chest_ECG,pNN50,10.200364298724955,%
+S13,amusement,chest_ECG,% intervalos válidos,100.0,%
+S13,amusement,wrist_BVP,FC,81.96106332061315,lpm
+S13,amusement,wrist_BVP,RMSSD,180.27737303386957,ms
+S13,amusement,wrist_BVP,SDNN,158.32522978234562,ms
+S13,amusement,wrist_BVP,pNN50,41.54929577464789,%
+S13,amusement,wrist_BVP,% intervalos válidos,68.18181818181817,%
+S13,amusement,chest_EDA,SCL,2.775455780906199,µS
+S13,amusement,chest_EDA,SCR por minuto,0.6282722513089005,1/min
+S13,amusement,chest_EDA,Amplitud SCR,0.011379280936976202,µS
+S13,amusement,wrist_EDA,SCL,5.629927908262305,µS
+S13,amusement,wrist_EDA,SCR por minuto,2.984293193717278,1/min
+S13,amusement,wrist_EDA,Amplitud SCR,0.4597928660222143,µS
+S13,amusement,chest_Resp,Frecuencia respiratoria,17.427730641220215,rpm
+S13,amusement,chest_Resp,Amplitud respiratoria,10.975248521534345,u.a.
+S13,amusement,chest_Resp,Variabilidad respiratoria (CV),0.5024101829358281,
+S13,amusement,chest_Temp,Temperatura media,34.14301248121012,°C
+S13,amusement,chest_Temp,Pendiente de temperatura,0.02011811218794037,°C/min
+S13,amusement,wrist_TEMP,Temperatura media,34.97426114656538,°C
+S13,amusement,wrist_TEMP,Pendiente de temperatura,-0.01500609662546229,°C/min
+S13,amusement,chest_EMG,RMS de EMG,0.010710006116838219,mV
+S13,amusement,chest_ACC,Índice de movimiento,0.013019663637079766,g
+S13,amusement,wrist_ACC,Índice de movimiento,0.017862297505916776,g
+S13,meditation,chest_ECG,FC,77.17565067447416,lpm
+S13,meditation,chest_ECG,RMSSD,85.70179761790702,ms
+S13,meditation,chest_ECG,SDNN,104.4613043807987,ms
+S13,meditation,chest_ECG,pNN50,27.690802348336597,%
+S13,meditation,chest_ECG,% intervalos válidos,100.0,%
+S13,meditation,wrist_BVP,FC,77.26966314812199,lpm
+S13,meditation,wrist_BVP,RMSSD,90.08921319968972,ms
+S13,meditation,wrist_BVP,SDNN,112.22761277088493,ms
+S13,meditation,wrist_BVP,pNN50,28.70182555780933,%
+S13,meditation,wrist_BVP,% intervalos válidos,97.26829268292683,%
+S13,meditation,chest_EDA,SCL,3.2414428527060295,µS
+S13,meditation,chest_EDA,SCR por minuto,0.30188733492782555,1/min
+S13,meditation,chest_EDA,Amplitud SCR,0.014532549083086436,µS
+S13,meditation,wrist_EDA,SCL,5.114441163920865,µS
+S13,meditation,wrist_EDA,SCR por minuto,0.8301901710515203,1/min
+S13,meditation,wrist_EDA,Amplitud SCR,0.05190751946674599,µS
+S13,meditation,chest_Resp,Frecuencia respiratoria,10.087084862913494,rpm
+S13,meditation,chest_Resp,Amplitud respiratoria,11.200777630648043,u.a.
+S13,meditation,chest_Resp,Variabilidad respiratoria (CV),0.3796731913490384,
+S13,meditation,chest_Temp,Temperatura media,34.195971295818595,°C
+S13,meditation,chest_Temp,Pendiente de temperatura,0.00033574678131247093,°C/min
+S13,meditation,wrist_TEMP,Temperatura media,34.26374870156342,°C
+S13,meditation,wrist_TEMP,Pendiente de temperatura,0.0007289282967307227,°C/min
+S13,meditation,chest_EMG,RMS de EMG,0.006840475912955619,mV
+S13,meditation,chest_ACC,Índice de movimiento,0.0037603911134683815,g
+S13,meditation,wrist_ACC,Índice de movimiento,0.005640137873185487,g
+S14,baseline,chest_ECG,FC,73.20828531864004,lpm
+S14,baseline,chest_ECG,RMSSD,32.764210618729706,ms
+S14,baseline,chest_ECG,SDNN,56.687192912279016,ms
+S14,baseline,chest_ECG,pNN50,12.717164697706739,%
+S14,baseline,chest_ECG,% intervalos válidos,100.0,%
+S14,baseline,wrist_BVP,FC,73.01574320179922,lpm
+S14,baseline,wrist_BVP,RMSSD,179.48252820734677,ms
+S14,baseline,wrist_BVP,SDNN,126.25075601479753,ms
+S14,baseline,wrist_BVP,pNN50,65.18636003172085,%
+S14,baseline,wrist_BVP,% intervalos válidos,90.73170731707317,%
+S14,baseline,chest_EDA,SCL,2.8057922408709763,µS
+S14,baseline,chest_EDA,SCR por minuto,0.45762711864406774,1/min
+S14,baseline,chest_EDA,Amplitud SCR,0.0327252914982551,µS
+S14,baseline,wrist_EDA,SCL,0.2847437401988748,µS
+S14,baseline,wrist_EDA,SCR por minuto,0.20338983050847456,1/min
+S14,baseline,wrist_EDA,Amplitud SCR,0.0230215813665272,µS
+S14,baseline,chest_Resp,Frecuencia respiratoria,16.865698509864366,rpm
+S14,baseline,chest_Resp,Amplitud respiratoria,8.05054787138905,u.a.
+S14,baseline,chest_Resp,Variabilidad respiratoria (CV),0.36222907399693727,
+S14,baseline,chest_Temp,Temperatura media,33.60398709410328,°C
+S14,baseline,chest_Temp,Pendiente de temperatura,0.042456139311125025,°C/min
+S14,baseline,wrist_TEMP,Temperatura media,32.17606969364619,°C
+S14,baseline,wrist_TEMP,Pendiente de temperatura,0.0007531825028661038,°C/min
+S14,baseline,chest_EMG,RMS de EMG,0.006907461802337035,mV
+S14,baseline,chest_ACC,Índice de movimiento,0.005563409443721728,g
+S14,baseline,wrist_ACC,Índice de movimiento,0.01619035823950364,g
+S14,stress,chest_ECG,FC,126.67470950536543,lpm
+S14,stress,chest_ECG,RMSSD,11.259725343591482,ms
+S14,stress,chest_ECG,SDNN,47.08785329212027,ms
+S14,stress,chest_ECG,pNN50,0.42134831460674155,%
+S14,stress,chest_ECG,% intervalos válidos,100.0,%
+S14,stress,wrist_BVP,FC,111.30990415335464,lpm
+S14,stress,wrist_BVP,RMSSD,142.70451725112147,ms
+S14,stress,wrist_BVP,SDNN,153.87905487965457,ms
+S14,stress,wrist_BVP,pNN50,21.105527638190953,%
+S14,stress,wrist_BVP,% intervalos válidos,75.08620689655172,%
+S14,stress,chest_EDA,SCL,2.959001742897595,µS
+S14,stress,chest_EDA,SCR por minuto,1.0666666666666667,1/min
+S14,stress,chest_EDA,Amplitud SCR,0.04094748793686114,µS
+S14,stress,wrist_EDA,SCL,0.33216635886654966,µS
+S14,stress,wrist_EDA,SCR por minuto,0.08888888888888889,1/min
+S14,stress,wrist_EDA,Amplitud SCR,0.09131091003250764,µS
+S14,stress,chest_Resp,Frecuencia respiratoria,16.738694956964427,rpm
+S14,stress,chest_Resp,Amplitud respiratoria,13.823621933377764,u.a.
+S14,stress,chest_Resp,Variabilidad respiratoria (CV),0.43654134191804994,
+S14,stress,chest_Temp,Temperatura media,34.15281451331244,°C
+S14,stress,chest_Temp,Pendiente de temperatura,0.03876016964602599,°C/min
+S14,stress,wrist_TEMP,Temperatura media,32.89816854123716,°C
+S14,stress,wrist_TEMP,Pendiente de temperatura,0.054940761293841275,°C/min
+S14,stress,chest_EMG,RMS de EMG,0.01099431582554071,mV
+S14,stress,chest_ACC,Índice de movimiento,0.018283784720632766,g
+S14,stress,wrist_ACC,Índice de movimiento,0.05694339532258541,g
+S14,amusement,chest_ECG,FC,83.16288082678437,lpm
+S14,amusement,chest_ECG,RMSSD,21.663708981289762,ms
+S14,amusement,chest_ECG,SDNN,50.8628963070087,ms
+S14,amusement,chest_ECG,pNN50,3.6964980544747084,%
+S14,amusement,chest_ECG,% intervalos válidos,100.0,%
+S14,amusement,wrist_BVP,FC,80.5257328509193,lpm
+S14,amusement,wrist_BVP,RMSSD,189.88655357881984,ms
+S14,amusement,wrist_BVP,SDNN,126.04845862395968,ms
+S14,amusement,wrist_BVP,pNN50,72.68907563025209,%
+S14,amusement,wrist_BVP,% intervalos válidos,61.33909287257019,%
+S14,amusement,chest_EDA,SCL,3.001964065061114,µS
+S14,amusement,chest_EDA,SCR por minuto,0.48386910956563145,1/min
+S14,amusement,chest_EDA,Amplitud SCR,0.02514708199274249,µS
+S14,amusement,wrist_EDA,SCL,0.318917991317432,µS
+S14,amusement,wrist_EDA,SCR por minuto,0.0,1/min
+S14,amusement,wrist_EDA,Amplitud SCR,,µS
+S14,amusement,chest_Resp,Frecuencia respiratoria,20.202045853071567,rpm
+S14,amusement,chest_Resp,Amplitud respiratoria,12.235067028349096,u.a.
+S14,amusement,chest_Resp,Variabilidad respiratoria (CV),0.5206274333782502,
+S14,amusement,chest_Temp,Temperatura media,34.18111335077593,°C
+S14,amusement,chest_Temp,Pendiente de temperatura,-0.022110676103305305,°C/min
+S14,amusement,wrist_TEMP,Temperatura media,31.938805454520768,°C
+S14,amusement,wrist_TEMP,Pendiente de temperatura,-0.024282317159706197,°C/min
+S14,amusement,chest_EMG,RMS de EMG,0.007760591804981232,mV
+S14,amusement,chest_ACC,Índice de movimiento,0.0046552257477468564,g
+S14,amusement,wrist_ACC,Índice de movimiento,0.007805211808850819,g
+S14,meditation,chest_ECG,FC,77.03536772607247,lpm
+S14,meditation,chest_ECG,RMSSD,29.924426682845922,ms
+S14,meditation,chest_ECG,SDNN,54.60516416886819,ms
+S14,meditation,chest_ECG,pNN50,9.62671905697446,%
+S14,meditation,chest_ECG,% intervalos válidos,100.0,%
+S14,meditation,wrist_BVP,FC,76.67162777917707,lpm
+S14,meditation,wrist_BVP,RMSSD,146.57750168529128,ms
+S14,meditation,wrist_BVP,SDNN,101.56131154015728,ms
+S14,meditation,wrist_BVP,pNN50,60.675512665862485,%
+S14,meditation,wrist_BVP,% intervalos válidos,85.8267716535433,%
+S14,meditation,chest_EDA,SCL,2.933483552734205,µS
+S14,meditation,chest_EDA,SCR por minuto,0.22670025188916879,1/min
+S14,meditation,chest_EDA,Amplitud SCR,0.012699414968759218,µS
+S14,meditation,wrist_EDA,SCL,0.31582315599239663,µS
+S14,meditation,wrist_EDA,SCR por minuto,0.0,1/min
+S14,meditation,wrist_EDA,Amplitud SCR,,µS
+S14,meditation,chest_Resp,Frecuencia respiratoria,11.150202145020076,rpm
+S14,meditation,chest_Resp,Amplitud respiratoria,10.329603396408947,u.a.
+S14,meditation,chest_Resp,Variabilidad respiratoria (CV),0.23761527122228113,
+S14,meditation,chest_Temp,Temperatura media,34.16709633257887,°C
+S14,meditation,chest_Temp,Pendiente de temperatura,-0.01570593177435775,°C/min
+S14,meditation,wrist_TEMP,Temperatura media,32.084125647316654,°C
+S14,meditation,wrist_TEMP,Pendiente de temperatura,-0.0026723415442576146,°C/min
+S14,meditation,chest_EMG,RMS de EMG,0.00624089447109343,mV
+S14,meditation,chest_ACC,Índice de movimiento,0.0044704351685759414,g
+S14,meditation,wrist_ACC,Índice de movimiento,0.0038683107770782054,g
+S15,baseline,chest_ECG,FC,82.73064633013469,lpm
+S15,baseline,chest_ECG,RMSSD,28.032079506139564,ms
+S15,baseline,chest_ECG,SDNN,57.36170144673429,ms
+S15,baseline,chest_ECG,pNN50,5.682520074119827,%
+S15,baseline,chest_ECG,% intervalos válidos,100.0,%
+S15,baseline,wrist_BVP,FC,75.22998296422487,lpm
+S15,baseline,wrist_BVP,RMSSD,294.2367987281251,ms
+S15,baseline,wrist_BVP,SDNN,236.51870650249512,ms
+S15,baseline,wrist_BVP,pNN50,61.49870801033591,%
+S15,baseline,wrist_BVP,% intervalos válidos,47.24556489262371,%
+S15,baseline,chest_EDA,SCL,1.7932895242150577,µS
+S15,baseline,chest_EDA,SCR por minuto,0.15319148936170213,1/min
+S15,baseline,chest_EDA,Amplitud SCR,0.03310795329220974,µS
+S15,baseline,wrist_EDA,SCL,0.278273799173753,µS
+S15,baseline,wrist_EDA,SCR por minuto,1.123404255319149,1/min
+S15,baseline,wrist_EDA,Amplitud SCR,0.017718513356232667,µS
+S15,baseline,chest_Resp,Frecuencia respiratoria,15.591688645289462,rpm
+S15,baseline,chest_Resp,Amplitud respiratoria,9.455980378841716,u.a.
+S15,baseline,chest_Resp,Variabilidad respiratoria (CV),0.4040357206563208,
+S15,baseline,chest_Temp,Temperatura media,33.646532697474704,°C
+S15,baseline,chest_Temp,Pendiente de temperatura,0.004731320536331585,°C/min
+S15,baseline,wrist_TEMP,Temperatura media,30.00155595779419,°C
+S15,baseline,wrist_TEMP,Pendiente de temperatura,0.02413028595841266,°C/min
+S15,baseline,chest_EMG,RMS de EMG,0.017362847148658746,mV
+S15,baseline,chest_ACC,Índice de movimiento,0.005675754692960292,g
+S15,baseline,wrist_ACC,Índice de movimiento,0.02002147177080926,g
+S15,stress,chest_ECG,FC,84.75536359130497,lpm
+S15,stress,chest_ECG,RMSSD,39.348479430978095,ms
+S15,stress,chest_ECG,SDNN,64.96827699302926,ms
+S15,stress,chest_ECG,pNN50,17.97520661157025,%
+S15,stress,chest_ECG,% intervalos válidos,100.0,%
+S15,stress,wrist_BVP,FC,79.34604904632153,lpm
+S15,stress,wrist_BVP,RMSSD,295.74185789121555,ms
+S15,stress,wrist_BVP,SDNN,208.89556982623768,ms
+S15,stress,wrist_BVP,pNN50,73.96963123644251,%
+S15,stress,wrist_BVP,% intervalos válidos,65.0,%
+S15,stress,chest_EDA,SCL,3.417223015969485,µS
+S15,stress,chest_EDA,SCR por minuto,0.26239067055393583,1/min
+S15,stress,chest_EDA,Amplitud SCR,0.15048544122401863,µS
+S15,stress,wrist_EDA,SCL,1.2824354509167917,µS
+S15,stress,wrist_EDA,SCR por minuto,4.285714285714286,1/min
+S15,stress,wrist_EDA,Amplitud SCR,0.04664017198284978,µS
+S15,stress,chest_Resp,Frecuencia respiratoria,13.257352584716056,rpm
+S15,stress,chest_Resp,Amplitud respiratoria,15.051032616107753,u.a.
+S15,stress,chest_Resp,Variabilidad respiratoria (CV),0.39693779960537046,
+S15,stress,chest_Temp,Temperatura media,34.42940313684002,°C
+S15,stress,chest_Temp,Pendiente de temperatura,0.04299413964875097,°C/min
+S15,stress,wrist_TEMP,Temperatura media,30.137733053535484,°C
+S15,stress,wrist_TEMP,Pendiente de temperatura,-0.016716426874851843,°C/min
+S15,stress,chest_EMG,RMS de EMG,0.011151721986973218,mV
+S15,stress,chest_ACC,Índice de movimiento,0.014050107062203707,g
+S15,stress,wrist_ACC,Índice de movimiento,0.05814915680532512,g
+S15,amusement,chest_ECG,FC,76.5400079801111,lpm
+S15,amusement,chest_ECG,RMSSD,41.07370201009298,ms
+S15,amusement,chest_ECG,SDNN,67.34707392062444,ms
+S15,amusement,chest_ECG,pNN50,12.869198312236287,%
+S15,amusement,chest_ECG,% intervalos válidos,100.0,%
+S15,amusement,wrist_BVP,FC,,lpm
+S15,amusement,wrist_BVP,RMSSD,,ms
+S15,amusement,wrist_BVP,SDNN,,ms
+S15,amusement,wrist_BVP,pNN50,,%
+S15,amusement,wrist_BVP,% intervalos válidos,13.953488372093023,%
+S15,amusement,chest_EDA,SCL,2.487345210600852,µS
+S15,amusement,chest_EDA,SCR por minuto,0.0,1/min
+S15,amusement,chest_EDA,Amplitud SCR,,µS
+S15,amusement,wrist_EDA,SCL,0.5801260814812808,µS
+S15,amusement,wrist_EDA,SCR por minuto,1.6129032258064515,1/min
+S15,amusement,wrist_EDA,Amplitud SCR,0.050311134238462896,µS
+S15,amusement,chest_Resp,Frecuencia respiratoria,16.067311738469133,rpm
+S15,amusement,chest_Resp,Amplitud respiratoria,5.779347713812288,u.a.
+S15,amusement,chest_Resp,Variabilidad respiratoria (CV),0.4872882072912458,
+S15,amusement,chest_Temp,Temperatura media,33.973852934375884,°C
+S15,amusement,chest_Temp,Pendiente de temperatura,0.012781897898524778,°C/min
+S15,amusement,wrist_TEMP,Temperatura media,30.362831669469035,°C
+S15,amusement,wrist_TEMP,Pendiente de temperatura,-0.057091571481393204,°C/min
+S15,amusement,chest_EMG,RMS de EMG,0.006937665917086965,mV
+S15,amusement,chest_ACC,Índice de movimiento,0.00509922165280929,g
+S15,amusement,wrist_ACC,Índice de movimiento,0.0055060120062710395,g
+S15,meditation,chest_ECG,FC,70.20754601425912,lpm
+S15,meditation,chest_ECG,RMSSD,64.81695193896044,ms
+S15,meditation,chest_ECG,SDNN,90.64332906772962,ms
+S15,meditation,chest_ECG,pNN50,28.694714131607334,%
+S15,meditation,chest_ECG,% intervalos válidos,100.0,%
+S15,meditation,wrist_BVP,FC,70.75920337960169,lpm
+S15,meditation,wrist_BVP,RMSSD,150.20820565746277,ms
+S15,meditation,wrist_BVP,SDNN,125.44787627400731,ms
+S15,meditation,wrist_BVP,pNN50,36.434108527131784,%
+S15,meditation,wrist_BVP,% intervalos válidos,61.64199192462988,%
+S15,meditation,chest_EDA,SCL,3.474019141780205,µS
+S15,meditation,chest_EDA,SCR por minuto,0.30226754636118447,1/min
+S15,meditation,chest_EDA,Amplitud SCR,0.02938823594393349,µS
+S15,meditation,wrist_EDA,SCL,0.4757115031170809,µS
+S15,meditation,wrist_EDA,SCR por minuto,0.3778344329514806,1/min
+S15,meditation,wrist_EDA,Amplitud SCR,0.06995212638805397,µS
+S15,meditation,chest_Resp,Frecuencia respiratoria,10.345014530379181,rpm
+S15,meditation,chest_Resp,Amplitud respiratoria,8.080189025378786,u.a.
+S15,meditation,chest_Resp,Variabilidad respiratoria (CV),0.25229429318460256,
+S15,meditation,chest_Temp,Temperatura media,34.178344637681015,°C
+S15,meditation,chest_Temp,Pendiente de temperatura,0.002058340454549369,°C/min
+S15,meditation,wrist_TEMP,Temperatura media,29.617058382226478,°C
+S15,meditation,wrist_TEMP,Pendiente de temperatura,-0.12280769842063612,°C/min
+S15,meditation,chest_EMG,RMS de EMG,0.006864727958884344,mV
+S15,meditation,chest_ACC,Índice de movimiento,0.006008641851871797,g
+S15,meditation,wrist_ACC,Índice de movimiento,0.006069501127947945,g
+S16,baseline,chest_ECG,FC,65.26735434117224,lpm
+S16,baseline,chest_ECG,RMSSD,62.04472143003428,ms
+S16,baseline,chest_ECG,SDNN,93.35910455181468,ms
+S16,baseline,chest_ECG,pNN50,39.672642244738896,%
+S16,baseline,chest_ECG,% intervalos válidos,100.0,%
+S16,baseline,wrist_BVP,FC,65.94644896577978,lpm
+S16,baseline,wrist_BVP,RMSSD,261.7142523600747,ms
+S16,baseline,wrist_BVP,SDNN,203.78520271092404,ms
+S16,baseline,wrist_BVP,pNN50,72.42857142857143,%
+S16,baseline,wrist_BVP,% intervalos válidos,62.65432098765432,%
+S16,baseline,chest_EDA,SCL,0.9708679296112201,µS
+S16,baseline,chest_EDA,SCR por minuto,0.0,1/min
+S16,baseline,chest_EDA,Amplitud SCR,,µS
+S16,baseline,wrist_EDA,SCL,0.2844007161360192,µS
+S16,baseline,wrist_EDA,SCR por minuto,0.4067796610169491,1/min
+S16,baseline,wrist_EDA,Amplitud SCR,0.019355349728671045,µS
+S16,baseline,chest_Resp,Frecuencia respiratoria,16.247826005177792,rpm
+S16,baseline,chest_Resp,Amplitud respiratoria,7.944486757818742,u.a.
+S16,baseline,chest_Resp,Variabilidad respiratoria (CV),0.18719071421159003,
+S16,baseline,chest_Temp,Temperatura media,33.84109630988816,°C
+S16,baseline,chest_Temp,Pendiente de temperatura,0.021916343809265635,°C/min
+S16,baseline,wrist_TEMP,Temperatura media,30.182290274005826,°C
+S16,baseline,wrist_TEMP,Pendiente de temperatura,0.10275962174957928,°C/min
+S16,baseline,chest_EMG,RMS de EMG,0.009673981652082086,mV
+S16,baseline,chest_ACC,Índice de movimiento,0.004875707455123459,g
+S16,baseline,wrist_ACC,Índice de movimiento,0.020391140102311273,g
+S16,stress,chest_ECG,FC,128.09579699594408,lpm
+S16,stress,chest_ECG,RMSSD,7.493767899425033,ms
+S16,stress,chest_ECG,SDNN,43.03640339525139,ms
+S16,stress,chest_ECG,pNN50,0.06963788300835655,%
+S16,stress,chest_ECG,% intervalos válidos,100.0,%
+S16,stress,wrist_BVP,FC,89.04137996041098,lpm
+S16,stress,wrist_BVP,RMSSD,296.82593419294926,ms
+S16,stress,wrist_BVP,SDNN,270.50236544501973,ms
+S16,stress,wrist_BVP,pNN50,62.5,%
+S16,stress,wrist_BVP,% intervalos válidos,33.97790055248619,%
+S16,stress,chest_EDA,SCL,3.8597081368605326,µS
+S16,stress,chest_EDA,SCR por minuto,5.349171409103356,1/min
+S16,stress,chest_EDA,Amplitud SCR,0.10386708995661792,µS
+S16,stress,wrist_EDA,SCL,1.949538113100629,µS
+S16,stress,wrist_EDA,SCR por minuto,4.635948554556241,1/min
+S16,stress,wrist_EDA,Amplitud SCR,0.07237984742780275,µS
+S16,stress,chest_Resp,Frecuencia respiratoria,21.89552297837756,rpm
+S16,stress,chest_Resp,Amplitud respiratoria,8.59559988885842,u.a.
+S16,stress,chest_Resp,Variabilidad respiratoria (CV),0.3929216758954152,
+S16,stress,chest_Temp,Temperatura media,34.20005292878285,°C
+S16,stress,chest_Temp,Pendiente de temperatura,-0.0070223774589972775,°C/min
+S16,stress,wrist_TEMP,Temperatura media,30.920423085409677,°C
+S16,stress,wrist_TEMP,Pendiente de temperatura,-0.04816934717805721,°C/min
+S16,stress,chest_EMG,RMS de EMG,0.011314396079446993,mV
+S16,stress,chest_ACC,Índice de movimiento,0.014080895468859725,g
+S16,stress,wrist_ACC,Índice de movimiento,0.022205441087078896,g
+S16,amusement,chest_ECG,FC,85.45402303313635,lpm
+S16,amusement,chest_ECG,RMSSD,25.206835488648263,ms
+S16,amusement,chest_ECG,SDNN,61.97793924329235,ms
+S16,amusement,chest_ECG,pNN50,4.780114722753346,%
+S16,amusement,chest_ECG,% intervalos válidos,100.0,%
+S16,amusement,wrist_BVP,FC,80.66926938092583,lpm
+S16,amusement,wrist_BVP,RMSSD,269.6082580839001,ms
+S16,amusement,wrist_BVP,SDNN,211.24254380762724,ms
+S16,amusement,wrist_BVP,pNN50,51.162790697674424,%
+S16,amusement,wrist_BVP,% intervalos válidos,40.94202898550724,%
+S16,amusement,chest_EDA,SCL,2.134068854324509,µS
+S16,amusement,chest_EDA,SCR por minuto,2.282608695652174,1/min
+S16,amusement,chest_EDA,Amplitud SCR,0.02736130219933827,µS
+S16,amusement,wrist_EDA,SCL,0.44448864262374427,µS
+S16,amusement,wrist_EDA,SCR por minuto,0.8152173913043478,1/min
+S16,amusement,wrist_EDA,Amplitud SCR,0.014233746213703694,µS
+S16,amusement,chest_Resp,Frecuencia respiratoria,17.23794738373378,rpm
+S16,amusement,chest_Resp,Amplitud respiratoria,7.950047716347858,u.a.
+S16,amusement,chest_Resp,Variabilidad respiratoria (CV),0.3489536188792881,
+S16,amusement,chest_Temp,Temperatura media,34.38306187287621,°C
+S16,amusement,chest_Temp,Pendiente de temperatura,0.006597130797349052,°C/min
+S16,amusement,wrist_TEMP,Temperatura media,30.035900495622467,°C
+S16,amusement,wrist_TEMP,Pendiente de temperatura,-0.04314882351095917,°C/min
+S16,amusement,chest_EMG,RMS de EMG,0.008890935301125232,mV
+S16,amusement,chest_ACC,Índice de movimiento,0.005046117012882504,g
+S16,amusement,wrist_ACC,Índice de movimiento,0.009727246146350966,g
+S16,meditation,chest_ECG,FC,75.18976102562992,lpm
+S16,meditation,chest_ECG,RMSSD,66.17361453052254,ms
+S16,meditation,chest_ECG,SDNN,117.2096110686399,ms
+S16,meditation,chest_ECG,pNN50,31.079717457114025,%
+S16,meditation,chest_ECG,% intervalos válidos,100.0,%
+S16,meditation,wrist_BVP,FC,73.97147705957661,lpm
+S16,meditation,wrist_BVP,RMSSD,176.8195423891272,ms
+S16,meditation,wrist_BVP,SDNN,162.11652567278344,ms
+S16,meditation,wrist_BVP,pNN50,59.57446808510638,%
+S16,meditation,wrist_BVP,% intervalos válidos,66.76986584107327,%
+S16,meditation,chest_EDA,SCL,1.888344248176631,µS
+S16,meditation,chest_EDA,SCR por minuto,2.424246796981957,1/min
+S16,meditation,chest_EDA,Amplitud SCR,0.027701470589420664,µS
+S16,meditation,wrist_EDA,SCL,0.46151000775873,µS
+S16,meditation,wrist_EDA,SCR por minuto,0.22727313721705847,1/min
+S16,meditation,wrist_EDA,Amplitud SCR,0.03836755483189338,µS
+S16,meditation,chest_Resp,Frecuencia respiratoria,11.024504764536557,rpm
+S16,meditation,chest_Resp,Amplitud respiratoria,9.211663610878444,u.a.
+S16,meditation,chest_Resp,Variabilidad respiratoria (CV),0.3768160002666089,
+S16,meditation,chest_Temp,Temperatura media,34.3687748571839,°C
+S16,meditation,chest_Temp,Pendiente de temperatura,0.011881711246913021,°C/min
+S16,meditation,wrist_TEMP,Temperatura media,30.148823284139535,°C
+S16,meditation,wrist_TEMP,Pendiente de temperatura,-0.05264713071132391,°C/min
+S16,meditation,chest_EMG,RMS de EMG,0.007967173817274725,mV
+S16,meditation,chest_ACC,Índice de movimiento,0.0038834115752839774,g
+S16,meditation,wrist_ACC,Índice de movimiento,0.005232232265910536,g
+S17,baseline,chest_ECG,FC,66.46469433349131,lpm
+S17,baseline,chest_ECG,RMSSD,90.5774622342355,ms
+S17,baseline,chest_ECG,SDNN,125.62371643890864,ms
+S17,baseline,chest_ECG,pNN50,51.37614678899083,%
+S17,baseline,chest_ECG,% intervalos válidos,100.0,%
+S17,baseline,wrist_BVP,FC,65.7251670840681,lpm
+S17,baseline,wrist_BVP,RMSSD,188.6208561219555,ms
+S17,baseline,wrist_BVP,SDNN,159.48521343946462,ms
+S17,baseline,wrist_BVP,pNN50,75.56357078449054,%
+S17,baseline,wrist_BVP,% intervalos válidos,88.50574712643679,%
+S17,baseline,chest_EDA,SCL,5.419375167006539,µS
+S17,baseline,chest_EDA,SCR por minuto,0.30482641828958507,1/min
+S17,baseline,chest_EDA,Amplitud SCR,0.055446907437583424,µS
+S17,baseline,wrist_EDA,SCL,1.3573848466885094,µS
+S17,baseline,wrist_EDA,SCR por minuto,0.20321761219305673,1/min
+S17,baseline,wrist_EDA,Amplitud SCR,0.18647484632626518,µS
+S17,baseline,chest_Resp,Frecuencia respiratoria,17.6906478458403,rpm
+S17,baseline,chest_Resp,Amplitud respiratoria,7.068211005534977,u.a.
+S17,baseline,chest_Resp,Variabilidad respiratoria (CV),0.36158234201528594,
+S17,baseline,chest_Temp,Temperatura media,33.384734551044566,°C
+S17,baseline,chest_Temp,Pendiente de temperatura,0.04298323829799948,°C/min
+S17,baseline,wrist_TEMP,Temperatura media,33.37514192385758,°C
+S17,baseline,wrist_TEMP,Pendiente de temperatura,-0.016827280356352076,°C/min
+S17,baseline,chest_EMG,RMS de EMG,0.013930704287422078,mV
+S17,baseline,chest_ACC,Índice de movimiento,0.0048894613483352126,g
+S17,baseline,wrist_ACC,Índice de movimiento,0.012385466753236192,g
+S17,stress,chest_ECG,FC,113.54716309954347,lpm
+S17,stress,chest_ECG,RMSSD,30.936977498510625,ms
+S17,stress,chest_ECG,SDNN,79.32759716419291,ms
+S17,stress,chest_ECG,pNN50,6.730065837600585,%
+S17,stress,chest_ECG,% intervalos válidos,100.0,%
+S17,stress,wrist_BVP,FC,93.03594856992916,lpm
+S17,stress,wrist_BVP,RMSSD,248.51853191693843,ms
+S17,stress,wrist_BVP,SDNN,219.36901407906652,ms
+S17,stress,wrist_BVP,pNN50,64.69248291571755,%
+S17,stress,wrist_BVP,% intervalos válidos,55.069582504970185,%
+S17,stress,chest_EDA,SCL,7.271237458351706,µS
+S17,stress,chest_EDA,SCR por minuto,2.4066390041493775,1/min
+S17,stress,chest_EDA,Amplitud SCR,0.041279237716663225,µS
+S17,stress,wrist_EDA,SCL,0.978108035692495,µS
+S17,stress,wrist_EDA,SCR por minuto,0.6639004149377593,1/min
+S17,stress,wrist_EDA,Amplitud SCR,0.2845041443771339,µS
+S17,stress,chest_Resp,Frecuencia respiratoria,15.616837864091107,rpm
+S17,stress,chest_Resp,Amplitud respiratoria,10.178638217136537,u.a.
+S17,stress,chest_Resp,Variabilidad respiratoria (CV),0.41457690409235476,
+S17,stress,chest_Temp,Temperatura media,34.296969430904994,°C
+S17,stress,chest_Temp,Pendiente de temperatura,0.043318057718777496,°C/min
+S17,stress,wrist_TEMP,Temperatura media,32.316291962092016,°C
+S17,stress,wrist_TEMP,Pendiente de temperatura,-0.018312306459766184,°C/min
+S17,stress,chest_EMG,RMS de EMG,0.008406856303382794,mV
+S17,stress,chest_ACC,Índice de movimiento,0.01061232331164444,g
+S17,stress,wrist_ACC,Índice de movimiento,0.0435634855483555,g
+S17,amusement,chest_ECG,FC,75.15436365311953,lpm
+S17,amusement,chest_ECG,RMSSD,56.40156658063335,ms
+S17,amusement,chest_ECG,SDNN,115.17262396635273,ms
+S17,amusement,chest_ECG,pNN50,26.666666666666668,%
+S17,amusement,chest_ECG,% intervalos válidos,100.0,%
+S17,amusement,wrist_BVP,FC,71.9518179790319,lpm
+S17,amusement,wrist_BVP,RMSSD,236.04317051805222,ms
+S17,amusement,wrist_BVP,SDNN,188.5447138050442,ms
+S17,amusement,wrist_BVP,pNN50,76.78571428571429,%
+S17,amusement,wrist_BVP,% intervalos válidos,32.8125,%
+S17,amusement,chest_EDA,SCL,5.91834056101658,µS
+S17,amusement,chest_EDA,SCR por minuto,1.2903225806451613,1/min
+S17,amusement,chest_EDA,Amplitud SCR,0.02034607138782548,µS
+S17,amusement,wrist_EDA,SCL,1.011166514878406,µS
+S17,amusement,wrist_EDA,SCR por minuto,0.16129032258064516,1/min
+S17,amusement,wrist_EDA,Amplitud SCR,0.027864449800811753,µS
+S17,amusement,chest_Resp,Frecuencia respiratoria,17.367806275604025,rpm
+S17,amusement,chest_Resp,Amplitud respiratoria,8.883230411514793,u.a.
+S17,amusement,chest_Resp,Variabilidad respiratoria (CV),0.4423010539331292,
+S17,amusement,chest_Temp,Temperatura media,33.530754714883784,°C
+S17,amusement,chest_Temp,Pendiente de temperatura,-0.012686450940234205,°C/min
+S17,amusement,wrist_TEMP,Temperatura media,32.90519709484551,°C
+S17,amusement,wrist_TEMP,Pendiente de temperatura,-0.04899131667730001,°C/min
+S17,amusement,chest_EMG,RMS de EMG,0.010894082798322121,mV
+S17,amusement,chest_ACC,Índice de movimiento,0.007880731799667301,g
+S17,amusement,wrist_ACC,Índice de movimiento,0.011229652555149036,g
+S17,meditation,chest_ECG,FC,62.23983755710883,lpm
+S17,meditation,chest_ECG,RMSSD,118.8985446825532,ms
+S17,meditation,chest_ECG,SDNN,158.32901621694506,ms
+S17,meditation,chest_ECG,pNN50,51.31926121372031,%
+S17,meditation,chest_ECG,% intervalos válidos,100.0,%
+S17,meditation,wrist_BVP,FC,62.866532773416104,lpm
+S17,meditation,wrist_BVP,RMSSD,191.8783597155949,ms
+S17,meditation,wrist_BVP,SDNN,200.6018552231393,ms
+S17,meditation,wrist_BVP,pNN50,69.93865030674846,%
+S17,meditation,wrist_BVP,% intervalos válidos,73.6986301369863,%
+S17,meditation,chest_EDA,SCL,6.679358617956312,µS
+S17,meditation,chest_EDA,SCR por minuto,1.8057455540355676,1/min
+S17,meditation,chest_EDA,Amplitud SCR,0.024564956321208465,µS
+S17,meditation,wrist_EDA,SCL,0.9007661814224228,µS
+S17,meditation,wrist_EDA,SCR por minuto,0.6566347469220246,1/min
+S17,meditation,wrist_EDA,Amplitud SCR,0.08244569739309743,µS
+S17,meditation,chest_Resp,Frecuencia respiratoria,9.877747464717501,rpm
+S17,meditation,chest_Resp,Amplitud respiratoria,14.166576338874311,u.a.
+S17,meditation,chest_Resp,Variabilidad respiratoria (CV),0.45721741556451156,
+S17,meditation,chest_Temp,Temperatura media,33.785552093985956,°C
+S17,meditation,chest_Temp,Pendiente de temperatura,0.032375476341359274,°C/min
+S17,meditation,wrist_TEMP,Temperatura media,32.40581314019074,°C
+S17,meditation,wrist_TEMP,Pendiente de temperatura,-0.0022047831267831665,°C/min
+S17,meditation,chest_EMG,RMS de EMG,0.008832247819332343,mV
+S17,meditation,chest_ACC,Índice de movimiento,0.005689082744310924,g
+S17,meditation,wrist_ACC,Índice de movimiento,0.010862313122748667,g

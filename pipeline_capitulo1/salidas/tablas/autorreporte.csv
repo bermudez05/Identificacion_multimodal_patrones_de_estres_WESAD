@@ -1,0 +1,181 @@
+sujeto,condicion,medida,valor
+S10,amusement,Activación (SAM),2.0
+S10,amusement,Ansiedad STAI-6 (6-24),8.0
+S10,amusement,Valencia (SAM),8.0
+S10,baseline,Activación (SAM),2.0
+S10,baseline,Ansiedad STAI-6 (6-24),11.0
+S10,baseline,Valencia (SAM),6.0
+S10,meditation,Activación (SAM),1.5
+S10,meditation,Ansiedad STAI-6 (6-24),11.0
+S10,meditation,Valencia (SAM),6.0
+S10,stress,Activación (SAM),8.0
+S10,stress,Ansiedad STAI-6 (6-24),20.0
+S10,stress,Valencia (SAM),3.0
+S11,amusement,Activación (SAM),3.0
+S11,amusement,Ansiedad STAI-6 (6-24),6.0
+S11,amusement,Valencia (SAM),8.0
+S11,baseline,Activación (SAM),2.0
+S11,baseline,Ansiedad STAI-6 (6-24),9.0
+S11,baseline,Valencia (SAM),6.0
+S11,meditation,Activación (SAM),2.0
+S11,meditation,Ansiedad STAI-6 (6-24),8.0
+S11,meditation,Valencia (SAM),6.5
+S11,stress,Activación (SAM),6.0
+S11,stress,Ansiedad STAI-6 (6-24),19.0
+S11,stress,Valencia (SAM),4.0
+S13,amusement,Activación (SAM),4.0
+S13,amusement,Ansiedad STAI-6 (6-24),8.0
+S13,amusement,Valencia (SAM),8.0
+S13,baseline,Activación (SAM),3.0
+S13,baseline,Ansiedad STAI-6 (6-24),14.0
+S13,baseline,Valencia (SAM),5.0
+S13,meditation,Activación (SAM),3.5
+S13,meditation,Ansiedad STAI-6 (6-24),12.0
+S13,meditation,Valencia (SAM),5.0
+S13,stress,Activación (SAM),9.0
+S13,stress,Ansiedad STAI-6 (6-24),21.0
+S13,stress,Valencia (SAM),4.0
+S14,amusement,Activación (SAM),2.0
+S14,amusement,Ansiedad STAI-6 (6-24),12.0
+S14,amusement,Valencia (SAM),7.0
+S14,baseline,Activación (SAM),2.0
+S14,baseline,Ansiedad STAI-6 (6-24),13.0
+S14,baseline,Valencia (SAM),5.0
+S14,meditation,Activación (SAM),2.5
+S14,meditation,Ansiedad STAI-6 (6-24),13.0
+S14,meditation,Valencia (SAM),5.5
+S14,stress,Activación (SAM),7.0
+S14,stress,Ansiedad STAI-6 (6-24),18.0
+S14,stress,Valencia (SAM),3.0
+S15,amusement,Activación (SAM),5.0
+S15,amusement,Ansiedad STAI-6 (6-24),10.0
+S15,amusement,Valencia (SAM),7.0
+S15,baseline,Activación (SAM),5.0
+S15,baseline,Ansiedad STAI-6 (6-24),12.0
+S15,baseline,Valencia (SAM),6.0
+S15,meditation,Activación (SAM),3.0
+S15,meditation,Ansiedad STAI-6 (6-24),9.0
+S15,meditation,Valencia (SAM),7.5
+S15,stress,Activación (SAM),8.0
+S15,stress,Ansiedad STAI-6 (6-24),19.0
+S15,stress,Valencia (SAM),4.0
+S16,amusement,Activación (SAM),4.0
+S16,amusement,Ansiedad STAI-6 (6-24),11.0
+S16,amusement,Valencia (SAM),7.0
+S16,baseline,Activación (SAM),2.0
+S16,baseline,Ansiedad STAI-6 (6-24),13.0
+S16,baseline,Valencia (SAM),7.0
+S16,meditation,Activación (SAM),1.5
+S16,meditation,Ansiedad STAI-6 (6-24),9.5
+S16,meditation,Valencia (SAM),7.5
+S16,stress,Activación (SAM),8.0
+S16,stress,Ansiedad STAI-6 (6-24),19.0
+S16,stress,Valencia (SAM),3.0
+S17,amusement,Activación (SAM),2.0
+S17,amusement,Ansiedad STAI-6 (6-24),7.0
+S17,amusement,Valencia (SAM),8.0
+S17,baseline,Activación (SAM),2.0
+S17,baseline,Ansiedad STAI-6 (6-24),13.0
+S17,baseline,Valencia (SAM),7.0
+S17,meditation,Activación (SAM),2.0
+S17,meditation,Ansiedad STAI-6 (6-24),12.0
+S17,meditation,Valencia (SAM),6.0
+S17,stress,Activación (SAM),9.0
+S17,stress,Ansiedad STAI-6 (6-24),22.0
+S17,stress,Valencia (SAM),1.0
+S2,amusement,Activación (SAM),1.0
+S2,amusement,Ansiedad STAI-6 (6-24),8.0
+S2,amusement,Valencia (SAM),8.0
+S2,baseline,Activación (SAM),2.0
+S2,baseline,Ansiedad STAI-6 (6-24),10.0
+S2,baseline,Valencia (SAM),7.0
+S2,meditation,Activación (SAM),2.0
+S2,meditation,Ansiedad STAI-6 (6-24),6.5
+S2,meditation,Valencia (SAM),7.0
+S2,stress,Activación (SAM),4.0
+S2,stress,Ansiedad STAI-6 (6-24),20.0
+S2,stress,Valencia (SAM),5.0
+S3,amusement,Activación (SAM),4.0
+S3,amusement,Ansiedad STAI-6 (6-24),9.0
+S3,amusement,Valencia (SAM),8.0
+S3,baseline,Activación (SAM),4.0
+S3,baseline,Ansiedad STAI-6 (6-24),9.0
+S3,baseline,Valencia (SAM),7.0
+S3,meditation,Activación (SAM),3.0
+S3,meditation,Ansiedad STAI-6 (6-24),11.5
+S3,meditation,Valencia (SAM),6.0
+S3,stress,Activación (SAM),7.0
+S3,stress,Ansiedad STAI-6 (6-24),20.0
+S3,stress,Valencia (SAM),7.0
+S4,amusement,Activación (SAM),1.0
+S4,amusement,Ansiedad STAI-6 (6-24),8.0
+S4,amusement,Valencia (SAM),8.0
+S4,baseline,Activación (SAM),2.0
+S4,baseline,Ansiedad STAI-6 (6-24),9.0
+S4,baseline,Valencia (SAM),7.0
+S4,meditation,Activación (SAM),4.5
+S4,meditation,Ansiedad STAI-6 (6-24),14.0
+S4,meditation,Valencia (SAM),5.0
+S4,stress,Activación (SAM),7.0
+S4,stress,Ansiedad STAI-6 (6-24),17.0
+S4,stress,Valencia (SAM),5.0
+S5,amusement,Activación (SAM),2.0
+S5,amusement,Ansiedad STAI-6 (6-24),12.0
+S5,amusement,Valencia (SAM),6.0
+S5,baseline,Activación (SAM),2.0
+S5,baseline,Ansiedad STAI-6 (6-24),10.0
+S5,baseline,Valencia (SAM),7.0
+S5,meditation,Activación (SAM),1.0
+S5,meditation,Ansiedad STAI-6 (6-24),8.0
+S5,meditation,Valencia (SAM),6.5
+S5,stress,Activación (SAM),8.0
+S5,stress,Ansiedad STAI-6 (6-24),18.0
+S5,stress,Valencia (SAM),5.0
+S6,amusement,Activación (SAM),2.0
+S6,amusement,Ansiedad STAI-6 (6-24),10.0
+S6,amusement,Valencia (SAM),8.0
+S6,baseline,Activación (SAM),2.0
+S6,baseline,Ansiedad STAI-6 (6-24),9.0
+S6,baseline,Valencia (SAM),8.0
+S6,meditation,Activación (SAM),1.5
+S6,meditation,Ansiedad STAI-6 (6-24),7.5
+S6,meditation,Valencia (SAM),7.0
+S6,stress,Activación (SAM),3.0
+S6,stress,Ansiedad STAI-6 (6-24),15.0
+S6,stress,Valencia (SAM),6.0
+S7,amusement,Activación (SAM),7.0
+S7,amusement,Ansiedad STAI-6 (6-24),7.0
+S7,amusement,Valencia (SAM),7.0
+S7,baseline,Activación (SAM),2.0
+S7,baseline,Ansiedad STAI-6 (6-24),8.0
+S7,baseline,Valencia (SAM),7.0
+S7,meditation,Activación (SAM),2.5
+S7,meditation,Ansiedad STAI-6 (6-24),10.0
+S7,meditation,Valencia (SAM),7.0
+S7,stress,Activación (SAM),7.0
+S7,stress,Ansiedad STAI-6 (6-24),18.0
+S7,stress,Valencia (SAM),6.0
+S8,amusement,Activación (SAM),3.0
+S8,amusement,Ansiedad STAI-6 (6-24),13.0
+S8,amusement,Valencia (SAM),7.0
+S8,baseline,Activación (SAM),3.0
+S8,baseline,Ansiedad STAI-6 (6-24),13.0
+S8,baseline,Valencia (SAM),7.0
+S8,meditation,Activación (SAM),3.0
+S8,meditation,Ansiedad STAI-6 (6-24),13.0
+S8,meditation,Valencia (SAM),6.5
+S8,stress,Activación (SAM),7.0
+S8,stress,Ansiedad STAI-6 (6-24),18.0
+S8,stress,Valencia (SAM),5.0
+S9,amusement,Activación (SAM),3.0
+S9,amusement,Ansiedad STAI-6 (6-24),10.0
+S9,amusement,Valencia (SAM),7.0
+S9,baseline,Activación (SAM),3.0
+S9,baseline,Ansiedad STAI-6 (6-24),9.0
+S9,baseline,Valencia (SAM),8.0
+S9,meditation,Activación (SAM),1.0
+S9,meditation,Ansiedad STAI-6 (6-24),7.0
+S9,meditation,Valencia (SAM),9.0
+S9,stress,Activación (SAM),4.0
+S9,stress,Ansiedad STAI-6 (6-24),14.0
+S9,stress,Valencia (SAM),7.0

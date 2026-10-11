@@ -1,0 +1,224 @@
+{
+  "SUBJECT_IDS": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "QC": {
+    "chest_ECG": {
+      "range": [
+        -5.0,
+        5.0
+      ],
+      "rail": {
+        "value": 1.49,
+        "min_s": 0.1,
+        "level": "excluir"
+      },
+      "rail_breve": {
+        "value": 1.49,
+        "level": "marcar"
+      },
+      "flat_std": {
+        "value": 0.005,
+        "min_s": 2.0,
+        "level": "excluir"
+      }
+    },
+    "chest_EMG": {
+      "range": [
+        -5.0,
+        5.0
+      ],
+      "rail": {
+        "value": 1.49,
+        "min_s": 0.1,
+        "level": "excluir"
+      },
+      "rail_breve": {
+        "value": 1.49,
+        "level": "marcar"
+      },
+      "flat_std": {
+        "value": 0.0005,
+        "min_s": 2.0,
+        "level": "excluir"
+      }
+    },
+    "chest_EDA": {
+      "range": [
+        0.05,
+        60.0
+      ],
+      "flat_equal_s": {
+        "value": 60.0,
+        "level": "excluir"
+      },
+      "slope": {
+        "value": 10.0,
+        "pad_s": 5.0,
+        "level": "excluir"
+      }
+    },
+    "wrist_EDA": {
+      "range": [
+        0.05,
+        60.0
+      ],
+      "flat_equal_s": {
+        "value": 60.0,
+        "level": "excluir"
+      },
+      "slope": {
+        "value": 10.0,
+        "pad_s": 5.0,
+        "level": "excluir"
+      }
+    },
+    "chest_Resp": {
+      "range": [
+        -60.0,
+        60.0
+      ],
+      "rail": {
+        "value": 49.9,
+        "min_s": 0.5,
+        "level": "excluir"
+      },
+      "flat_std": {
+        "value": 0.05,
+        "min_s": 10.0,
+        "level": "excluir"
+      }
+    },
+    "chest_Temp": {
+      "range": [
+        20.0,
+        42.0
+      ],
+      "flat_equal_s": {
+        "value": 60.0,
+        "level": "excluir"
+      }
+    },
+    "wrist_TEMP": {
+      "range": [
+        20.0,
+        42.0
+      ],
+      "flat_equal_s": {
+        "value": 60.0,
+        "level": "excluir"
+      }
+    },
+    "wrist_BVP": {
+      "flat_std": {
+        "value": 0.01,
+        "min_s": 2.0,
+        "level": "excluir"
+      }
+    },
+    "chest_ACC": {
+      "range": [
+        -8.0,
+        8.0
+      ]
+    },
+    "wrist_ACC": {
+      "range": [
+        -8.0,
+        8.0
+      ],
+      "rail": {
+        "value": 1.98,
+        "min_s": 0.0,
+        "level": "marcar"
+      }
+    }
+  },
+  "CLEAN": {
+    "chest_ECG": {
+      "notch_hz": 50,
+      "band": [
+        0.5,
+        40.0
+      ],
+      "order": 4,
+      "fs_out": 700
+    },
+    "chest_EDA": {
+      "lowpass": 5.0,
+      "order": 4,
+      "fs_out": 8
+    },
+    "wrist_EDA": {
+      "lowpass": 1.0,
+      "order": 4,
+      "fs_out": 4
+    },
+    "chest_Resp": {
+      "method": "khodadad2018",
+      "fs_out": 32
+    },
+    "wrist_BVP": {
+      "method": "elgendi",
+      "fs_out": 64
+    },
+    "chest_Temp": {
+      "lowpass": 0.1,
+      "order": 2,
+      "fs_out": 4
+    },
+    "wrist_TEMP": {
+      "lowpass": 0.1,
+      "order": 2,
+      "fs_out": 4
+    }
+  },
+  "MAX_GAP_INTERP_S": {
+    "chest_EDA": 2.0,
+    "wrist_EDA": 2.0,
+    "chest_Temp": 2.0,
+    "wrist_TEMP": 2.0
+  },
+  "EVENTS": {
+    "rr_ms_range": [
+      300,
+      2000
+    ],
+    "ecg_sqi_segment_s": 10.0,
+    "ppg_sqi_window_s": 5.0,
+    "scr_min_amplitude_us": 0.01,
+    "motion_window_s": 1.0
+  },
+  "WINDOW": {
+    "length_s": 60.0,
+    "step_s": 0.25,
+    "min_valid_frac": 0.8,
+    "trim_start_s": 0.0
+  },
+  "TASKS": {
+    "y_3clases": {
+      "baseline": 0,
+      "stress": 1,
+      "amusement": 2
+    },
+    "y_binaria": {
+      "baseline": 0,
+      "stress": 1,
+      "amusement": 0
+    }
+  }
+}

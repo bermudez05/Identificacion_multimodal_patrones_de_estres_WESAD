@@ -1,0 +1,15 @@
+# Raw WESAD dataset (17 GB, not redistributable) — download separately
+WESAD/
+
+# Large regenerable outputs (re-create by running the pipeline notebooks)
+pipeline_capitulo1/salidas/limpias/*.pkl.gz
+
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
