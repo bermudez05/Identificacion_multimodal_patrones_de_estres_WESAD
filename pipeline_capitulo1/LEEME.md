@@ -13,7 +13,7 @@
 |---|---|---|
 | `01_inventario_y_etiquetas` | Revisa que los datos estén completos, las condiciones del protocolo, las 10 señales y los cuestionarios | 1–5 min |
 | `02_control_de_calidad` | Busca muestras dañadas en las 10 señales | 2–5 min |
-| `03_limpieza_y_eventos` | Limpia las 6 señales del modelo y detecta latidos (ECG), respiraciones y respuestas de sudoración | 5–10 min |
+| `03_limpieza_y_eventos` | Limpia las 6 señales del modelo, detecta latidos (ECG), respiraciones y respuestas de sudoración, y revisa la calidad del BVP (solo para documentar por qué quedó fuera) | 20–30 min |
 | `04_marcadores_y_variabilidad` | Muestra si el estrés se ve en cada señal (objetivo 1) | < 1 min |
 | `05_ventanas_y_exportacion` | Corta en ventanas de 60 s con sus etiquetas y exporta para el objetivo 2 | < 1 min |
 
