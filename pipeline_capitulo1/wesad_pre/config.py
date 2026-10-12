@@ -2,11 +2,11 @@
 config.py — Toda la configuración del pipeline en un solo lugar.
 
 Cada número que aparece aquí tiene una justificación en la literatura (columna
-"Fuente" de la tabla del documento del capítulo 1). Los cambios se realizan
-aquí y todos los notebooks lo toman automáticamente.
+"Fuente" de la tabla del documento del capítulo 1). Si el equipo decide cambiar
+algo, se cambia aquí y todos los notebooks lo toman automáticamente.
 
 Convención de nombres: cada señal se identifica con "<dispositivo>_<canal>",
-por ejemplo "chest_ECG" (pecho, RespiBAN) o "wrist_BVP" (muñeca, Empatica E4).
+por ejemplo "chest_ECG" (pecho, RespiBAN) o "wrist_EDA" (muñeca, Empatica E4).
 """
 
 # ---------------------------------------------------------------------------
@@ -37,7 +37,7 @@ POWERLINE_HZ = 50
 #   "nucleo"      -> se limpia y se usa para el modelo (objetivo 2)
 #   "apoyo"       -> se limpia y se usa, pero se espera menor aporte (temperatura)
 #   "movimiento"  -> NO es predictor; sirve para marcar artefactos de movimiento
-#   "exploratoria"-> solo se analiza en el EDA, no se limpia para el modelo (EMG)
+#   "exploratoria"-> solo se analiza en el EDA, no se limpia para el modelo (EMG y BVP)
 #
 # Los .pkl de WESAD ya traen el pecho en unidades físicas (mV, µS, °C, %, g).
 # Lo único que hay que convertir es el ACC de muñeca: el E4 entrega 1/64 g.
@@ -46,7 +46,8 @@ SIGNALS = {
     "chest_ECG":  dict(device="chest", channel="ECG",  fs=700, unit="mV", role="nucleo",       name="ECG (pecho)"),
     "chest_EDA":  dict(device="chest", channel="EDA",  fs=700, unit="µS", role="nucleo",       name="EDA (pecho)"),
     "chest_Resp": dict(device="chest", channel="Resp", fs=700, unit="%",  role="nucleo",       name="Respiración (pecho)"),
-    "wrist_BVP":  dict(device="wrist", channel="BVP",  fs=64,  unit="u.a.", role="nucleo",     name="BVP (muñeca)"),
+    # BVP: el grupo decidió no usarlo en el modelo (oct. 2026). Queda solo para el EDA, como el EMG.
+    "wrist_BVP":  dict(device="wrist", channel="BVP",  fs=64,  unit="u.a.", role="exploratoria", name="BVP (muñeca)"),
     "wrist_EDA":  dict(device="wrist", channel="EDA",  fs=4,   unit="µS", role="nucleo",       name="EDA (muñeca)"),
     "chest_Temp": dict(device="chest", channel="Temp", fs=700, unit="°C", role="apoyo",        name="Temperatura (pecho)"),
     "wrist_TEMP": dict(device="wrist", channel="TEMP", fs=4,   unit="°C", role="apoyo",        name="Temperatura (muñeca)"),
@@ -131,17 +132,16 @@ QC = {
 # para no desplazar en el tiempo los picos R, las SCR ni los ciclos respiratorios.
 
 CLEAN = {
-    # Kligfield et al. 2007 (pasa-altas 0.5 Hz para ritmo), notch en la red,
-    # pasa-bajas 40 Hz para quitar ruido muscular (NeuroKit2 / práctica estándar).
+    # Pasa-altas 0.5 Hz de fase cero: Kligfield et al. 2007 piden 0.05 Hz para ECG diagnóstico y
+    # admiten hasta 0.67 Hz con filtros de fase cero; aquí solo interesan los picos R.
+    # Notch en la red. Pasa-bajas 40 Hz: decisión del proyecto para detectar picos R.
     "chest_ECG":  dict(notch_hz=POWERLINE_HZ, band=(0.5, 40.0), order=4, fs_out=700),
     # Schmidt et al. 2018 (WESAD): pasa-bajas 5 Hz. Luego se baja a 8 Hz (suficiente para EDA).
     "chest_EDA":  dict(lowpass=5.0, order=4, fs_out=8),
-    # Empatica E4 ya muestrea a 4 Hz: pasa-bajas 1 Hz (Boucsein et al. 2012).
+    # Empatica E4 ya muestrea a 4 Hz (Nyquist 2 Hz): pasa-bajas 1 Hz (decisión del proyecto).
     "wrist_EDA":  dict(lowpass=1.0, order=4, fs_out=4),
-    # Khodadad et al. 2018 (método por defecto de NeuroKit2). Antes se baja a 32 Hz.
+    # Khodadad et al. 2018 (método por defecto de NeuroKit2: pasa-banda 0.05–3 Hz). Antes se baja a 32 Hz.
     "chest_Resp": dict(method="khodadad2018", fs_out=32),
-    # Elgendi et al. 2013 (método "elgendi" de NeuroKit2: pasa-banda 0.5–8 Hz).
-    "wrist_BVP":  dict(method="elgendi", fs_out=64),
     # Temperatura: cambia muy lento; pasa-bajas 0.1 Hz y 4 Hz de trabajo.
     "chest_Temp": dict(lowpass=0.1, order=2, fs_out=4),
     "wrist_TEMP": dict(lowpass=0.1, order=2, fs_out=4),
@@ -159,9 +159,6 @@ EVENTS = {
     # Calidad de ECG: clasificación de Zhao y Zhang (2018) en segmentos de 10 s
     # (excelente / aceptable / inaceptable). Los RR en segmentos inaceptables no se usan.
     "ecg_sqi_segment_s": 10.0,
-    # Calidad de BVP: acuerdo entre dos detectores de latidos (bSQI, Li et al. 2008)
-    # + asimetría por ventanas de 5 s como descriptor (Elgendi 2016).
-    "ppg_sqi_window_s": 5.0,
     # SCR: amplitud mínima absoluta 0.01 µS (Boucsein et al. 2012)
     "scr_min_amplitude_us": 0.01,
     # Movimiento: desviación estándar de la magnitud de ACC en 1 s

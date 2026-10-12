@@ -23,7 +23,7 @@ from .etiquetas import find_blocks
 
 try:
     import neurokit2 as nk
-except ImportError:  # el paquete funciona sin NeuroKit2 salvo Resp y BVP
+except ImportError:  # el paquete funciona sin NeuroKit2 salvo Resp
     nk = None
 
 
@@ -121,9 +121,6 @@ def clean_signal(x, key, invalid):
     elif key == "chest_Resp":
         y = resample(xf, fs_in, fs_out)
         y = nk.rsp_clean(y, sampling_rate=fs_out, method=p["method"])
-
-    elif key == "wrist_BVP":
-        y = nk.ppg_clean(xf, sampling_rate=fs_in, method=p["method"])
 
     elif key in ("chest_Temp", "wrist_TEMP"):
         y = resample(xf, fs_in, fs_out)

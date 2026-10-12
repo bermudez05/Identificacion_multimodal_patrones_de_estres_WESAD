@@ -4,7 +4,6 @@ eventos.py — Eventos fisiológicos y calidad (etapa 4).
 De cada señal limpia se extraen los "eventos" que luego alimentan las
 características del objetivo 2:
   - ECG  -> picos R e intervalos RR (base de la frecuencia cardíaca y la HRV)
-  - BVP  -> picos sistólicos e intervalos entre latidos (HRV desde la muñeca)
   - EDA  -> componente tónico (SCL), componente fásico y respuestas SCR
   - Resp -> respiraciones (inicio, pico, amplitud, duración)
 
@@ -15,7 +14,6 @@ import warnings
 
 import numpy as np
 import pandas as pd
-from scipy.stats import skew
 
 from .config import EVENTS
 
@@ -100,42 +98,6 @@ def ecg_events(y, fs, invalid):
         good = np.r_[good, np.repeat(good[-1:], y.size - good.size)]
     rr = _interval_table(peaks, fs, invalid, good.astype(float), 0.5)
     return dict(peaks=peaks, rr=rr, sqi_segmentos=sqi, sqi_segmento_s=seg_s, n_corregidos=n_fix)
-
-
-# ---------------------------------------------------------------------------
-# BVP
-# ---------------------------------------------------------------------------
-
-def ppg_sqi(y, fs, window_s):
-    """SQI por asimetría (skewness) en ventanas consecutivas (Elgendi 2016).
-    Devuelve un valor por muestra (el de su ventana)."""
-    w = int(window_s * fs)
-    n_win = int(np.ceil(y.size / w))
-    sk = np.array([skew(y[i * w:(i + 1) * w]) if y[i * w:(i + 1) * w].size > 3 else np.nan
-                   for i in range(n_win)])
-    return np.repeat(sk, w)[:y.size]
-
-
-def ppg_events(y, fs, invalid):
-    """Picos sistólicos, intervalos entre latidos y calidad del BVP limpio.
-
-    Calidad (dos indicadores):
-      - acuerdo entre dos detectores de latidos (concepto bSQI de Li et al. 2008,
-        método 'ho2025' de NeuroKit2): un intervalo es confiable solo si un segundo
-        detector independiente encuentra los mismos latidos. Es el que decide la validez.
-      - asimetría (skewness) por ventanas de 5 s (Elgendi 2016): se guarda como
-        descriptor continuo de calidad, sin umbral de exclusión."""
-    info = nk.ppg_findpeaks(y, sampling_rate=fs, method="elgendi")
-    peaks = np.asarray(info["PPG_Peaks"], dtype=np.int64)
-    peaks, n_fix = _fix_peaks(peaks, fs)
-    peaks = peaks[(peaks >= 0) & (peaks < y.size)]
-    with warnings.catch_warnings():
-        warnings.simplefilter("ignore")
-        agree = np.asarray(nk.ppg_quality(y, peaks=peaks, sampling_rate=fs, method="ho2025"), dtype=float)
-    agree = np.nan_to_num(agree, nan=0.0) >= 0.5
-    skewness = ppg_sqi(y, fs, EVENTS["ppg_sqi_window_s"]).astype(np.float32)
-    ibi = _interval_table(peaks, fs, invalid, agree.astype(float), 0.5)
-    return dict(peaks=peaks, ibi=ibi, acuerdo=agree, skewness=skewness, n_corregidos=n_fix)
 
 
 # ---------------------------------------------------------------------------

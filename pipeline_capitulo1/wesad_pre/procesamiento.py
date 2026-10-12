@@ -80,8 +80,6 @@ def process_subject(data, sid, root=".", qc=None):
     ev = out["eventos"]
     ev["chest_ECG"] = eventos.ecg_events(s["chest_ECG"]["y"].astype(np.float64), s["chest_ECG"]["fs"],
                                          s["chest_ECG"]["invalid"])
-    ev["wrist_BVP"] = eventos.ppg_events(s["wrist_BVP"]["y"].astype(np.float64), s["wrist_BVP"]["fs"],
-                                         s["wrist_BVP"]["invalid"])
     for key in ("chest_EDA", "wrist_EDA"):
         ev[key] = eventos.eda_events(s[key]["y"].astype(np.float64), s[key]["fs"],
                                      s[key]["invalid"], blocks)

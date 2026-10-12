@@ -62,9 +62,6 @@ def subject_windows(proc, cfg=WINDOW):
     ecg = ev["chest_ECG"]
     # fracción de la ventana en segmentos de ECG aceptables o excelentes (Zhao y Zhang 2018)
     w["ecg_frac_sqi_ok"] = _window_fraction(ecg["sqi_segmentos"] >= 1, 1.0 / ecg["sqi_segmento_s"], st, en)
-    # fracción de la ventana donde dos detectores de pulso coinciden (bSQI)
-    w["bvp_frac_acuerdo"] = _window_fraction(ev["wrist_BVP"]["acuerdo"], proc["señales"]["wrist_BVP"]["fs"], st, en)
-    w["bvp_skewness"] = _window_mean(ev["wrist_BVP"]["skewness"], proc["señales"]["wrist_BVP"]["fs"], st, en)
     for key in ("chest_ACC", "wrist_ACC"):
         m = proc["movimiento"][key]
         w[f"movimiento__{key}"] = _window_mean(m["y"], m["fs"], st, en)
@@ -79,7 +76,8 @@ def subject_windows(proc, cfg=WINDOW):
 # ---------------------------------------------------------------------------
 
 def zscore_por_sujeto(df, cols, ref_condition="baseline"):
-    """Opción A (Nkurikiyeyezu et al. 2019): cada sujeto se normaliza con la media y la
+    """Opción A (estandarización dentro del sujeto, Ben-Shakhar 1985; ver también la calibración
+    personalizada de Nkurikiyeyezu et al. 2019): cada sujeto se normaliza con la media y la
     desviación de SU PROPIA línea base. Supone que al usar el sistema con una persona
     nueva se graba primero un reposo corto de calibración."""
     out = df.copy()

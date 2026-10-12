@@ -63,8 +63,8 @@ def subject_markers(proc):
             continue
         mins = _minutes(blocks, cond)
 
-        # ECG y BVP: frecuencia cardíaca y variabilidad
-        for key, tab in (("chest_ECG", ev["chest_ECG"]["rr"]), ("wrist_BVP", ev["wrist_BVP"]["ibi"])):
+        # ECG: frecuencia cardíaca y variabilidad (el BVP no se usa por decisión del grupo)
+        for key, tab in (("chest_ECG", ev["chest_ECG"]["rr"]),):
             sub = tab[_in_condition(tab.t_s.values, blocks, cond)]
             h = hrv_time(sub)
             add(cond, key, "FC", h["fc_lpm"], "lpm")

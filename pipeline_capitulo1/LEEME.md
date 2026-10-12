@@ -13,7 +13,7 @@
 |---|---|---|
 | `01_inventario_y_etiquetas` | Revisa que los datos estén completos, las condiciones del protocolo, las 10 señales y los cuestionarios | 1–5 min |
 | `02_control_de_calidad` | Busca muestras dañadas en las 10 señales | 2–5 min |
-| `03_limpieza_y_eventos` | Limpia las 7 señales del modelo y detecta latidos, respiraciones y respuestas de sudoración | 20–30 min |
+| `03_limpieza_y_eventos` | Limpia las 6 señales del modelo y detecta latidos (ECG), respiraciones y respuestas de sudoración | 5–10 min |
 | `04_marcadores_y_variabilidad` | Muestra si el estrés se ve en cada señal (objetivo 1) | < 1 min |
 | `05_ventanas_y_exportacion` | Corta en ventanas de 60 s con sus etiquetas y exporta para el objetivo 2 | < 1 min |
 
@@ -31,9 +31,11 @@ Los notebooks ya vienen ejecutados con los datos reales, así que puedes leerlos
 
 ## Señales
 
-- **Se limpian y van al modelo:** ECG, EDA de pecho, respiración, BVP, EDA de muñeca, temperatura de pecho y de muñeca.
-- **Solo EDA (análisis exploratorio):** EMG y los dos acelerómetros. Los acelerómetros sirven para medir movimiento.
+- **Se limpian y van al modelo:** ECG, EDA de pecho, respiración, EDA de muñeca, temperatura de pecho y de muñeca.
+- **Solo EDA (análisis exploratorio):** EMG, BVP y los dos acelerómetros. El BVP quedó fuera del modelo por decisión del
+  grupo (oct. 2026). Los acelerómetros sirven para medir movimiento.
 
 ## Importante
 
-Los `.pkl` de WESAD **ya vienen en unidades físicas**.
+Los `.pkl` de WESAD **ya vienen en unidades físicas**. No se deben convertir otra vez: esa doble conversión
+era la causa de que el notebook anterior excluyera el 100 % de los datos.

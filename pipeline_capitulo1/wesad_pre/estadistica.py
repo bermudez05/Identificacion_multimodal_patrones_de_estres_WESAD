@@ -68,7 +68,7 @@ def compare_conditions(markers, conds=("baseline", "stress", "amusement"),
 
 
 def bland_altman(a, b):
-    """Concordancia entre dos mediciones del mismo fenómeno (p. ej. FC por ECG y por BVP).
+    """Concordancia entre dos mediciones del mismo fenómeno (p. ej. SCL de la EDA de pecho y de muñeca).
     Devuelve sesgo (media de a - b) y límites de acuerdo al 95 %."""
     a, b = np.asarray(a, float), np.asarray(b, float)
     ok = np.isfinite(a) & np.isfinite(b)

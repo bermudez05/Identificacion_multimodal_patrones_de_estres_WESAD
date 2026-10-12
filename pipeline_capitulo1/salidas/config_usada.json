@@ -172,10 +172,6 @@
       "method": "khodadad2018",
       "fs_out": 32
     },
-    "wrist_BVP": {
-      "method": "elgendi",
-      "fs_out": 64
-    },
     "chest_Temp": {
       "lowpass": 0.1,
       "order": 2,
@@ -199,7 +195,6 @@
       2000
     ],
     "ecg_sqi_segment_s": 10.0,
-    "ppg_sqi_window_s": 5.0,
     "scr_min_amplitude_us": 0.01,
     "motion_window_s": 1.0
   },
