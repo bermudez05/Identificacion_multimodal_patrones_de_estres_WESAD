@@ -1,7 +1,8 @@
 """
 limpieza.py — Limpieza por señal (etapa 3) y manejo de huecos (etapa 5).
 
-Solo se limpian las señales con rol "nucleo" o "apoyo" (config.MODEL_SIGNALS).
+Se limpian las señales del modelo (config.MODEL_SIGNALS, solo pecho) y, solo para el EDA,
+la EDA y la temperatura de muñeca (config.CLEAN_SIGNALS).
 EMG y acelerómetros no se limpian para el modelo: se usan en el EDA y para marcar
 movimiento.
 

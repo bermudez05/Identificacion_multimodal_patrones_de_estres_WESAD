@@ -62,7 +62,8 @@ def subject_windows(proc, cfg=WINDOW):
     ecg = ev["chest_ECG"]
     # fracción de la ventana en segmentos de ECG aceptables o excelentes (Zhao y Zhang 2018)
     w["ecg_frac_sqi_ok"] = _window_fraction(ecg["sqi_segmentos"] >= 1, 1.0 / ecg["sqi_segmento_s"], st, en)
-    for key in ("chest_ACC", "wrist_ACC"):
+    # Solo el ACC de pecho: el modelo usa solo sensores de pecho (el de muñeca queda para el EDA)
+    for key in ("chest_ACC",):
         m = proc["movimiento"][key]
         w[f"movimiento__{key}"] = _window_mean(m["y"], m["fs"], st, en)
 

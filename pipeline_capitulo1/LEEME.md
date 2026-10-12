@@ -13,7 +13,7 @@
 |---|---|---|
 | `01_inventario_y_etiquetas` | Revisa que los datos estén completos, las condiciones del protocolo, las 10 señales y los cuestionarios | 1–5 min |
 | `02_control_de_calidad` | Busca muestras dañadas en las 10 señales | 2–5 min |
-| `03_limpieza_y_eventos` | Limpia las 6 señales del modelo, detecta latidos (ECG), respiraciones y respuestas de sudoración, y revisa la calidad del BVP (solo para documentar por qué quedó fuera) | 20–30 min |
+| `03_limpieza_y_eventos` | Limpia las 4 señales de pecho del modelo (y la EDA y temperatura de muñeca solo para el EDA), detecta latidos (ECG), respiraciones y respuestas de sudoración, y revisa la calidad del BVP (solo para documentar por qué quedó fuera) | 20–30 min |
 | `04_marcadores_y_variabilidad` | Muestra si el estrés se ve en cada señal (objetivo 1) | < 1 min |
 | `05_ventanas_y_exportacion` | Corta en ventanas de 60 s con sus etiquetas y exporta para el objetivo 2 | < 1 min |
 
@@ -31,8 +31,10 @@ Los notebooks ya vienen ejecutados con los datos reales, así que puedes leerlos
 
 ## Señales
 
-- **Se limpian y van al modelo:** ECG, EDA de pecho, respiración, EDA de muñeca, temperatura de pecho y de muñeca.
-- **Solo EDA (análisis exploratorio):** EMG, BVP y los dos acelerómetros. El BVP quedó fuera del modelo por decisión del
+- **Van al modelo (solo pecho):** ECG, EDA, respiración (núcleo) y temperatura (apoyo).
+- **Se limpian solo para el EDA (exploratorias):** EDA y temperatura de muñeca, para compararlas con las de pecho.
+  No entran a las ventanas ni al modelo (decisión del grupo, oct. 2026: el modelo usa solo sensores de pecho).
+- **Solo EDA, sin limpiar (exploratorias):** EMG, BVP y los dos acelerómetros. El BVP quedó fuera del modelo por decisión del
   grupo (oct. 2026). Los acelerómetros sirven para medir movimiento.
 
 ## Importante

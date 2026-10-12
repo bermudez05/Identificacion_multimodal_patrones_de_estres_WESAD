@@ -12,7 +12,7 @@ import pickle
 import numpy as np
 
 from . import calidad, carga, eventos, etiquetas, limpieza
-from .config import ALL_SIGNALS, EVENTS, MODEL_SIGNALS, OUT_DIRS, SIGNALS
+from .config import ALL_SIGNALS, CLEAN_SIGNALS, EVENTS, OUT_DIRS, SIGNALS
 
 
 def qc_path(sid, root="."):
@@ -68,7 +68,7 @@ def process_subject(data, sid, root=".", qc=None):
     blocks = etiquetas.condition_blocks(label)
     out = dict(sujeto=f"S{sid}", bloques=blocks, n_label=len(label), señales={}, eventos={})
 
-    for key in MODEL_SIGNALS:
+    for key in CLEAN_SIGNALS:   # modelo (pecho) + EDA y temperatura de muñeca solo para el EDA
         x = carga.get_signal(data, key)
         res = limpieza.clean_signal(x, key, qc[key]["excluir"])
         marcar = limpieza.resample_mask(qc[key]["marcar"], SIGNALS[key]["fs"], res["fs"], res["y"].size)

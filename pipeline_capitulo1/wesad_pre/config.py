@@ -37,7 +37,11 @@ POWERLINE_HZ = 50
 #   "nucleo"      -> se limpia y se usa para el modelo (objetivo 2)
 #   "apoyo"       -> se limpia y se usa, pero se espera menor aporte (temperatura)
 #   "movimiento"  -> NO es predictor; sirve para marcar artefactos de movimiento
-#   "exploratoria"-> solo se analiza en el EDA, no se limpia para el modelo (EMG y BVP)
+#   "exploratoria"-> solo se analiza en el EDA, no va al modelo (EMG, BVP y las señales de muñeca)
+#
+# Decisión del grupo (oct. 2026): el modelo usa solo sensores de PECHO. La EDA y la temperatura de
+# muñeca quedan como exploratorias; se siguen limpiando (limpiar_eda=True) solo para compararlas con
+# las de pecho en el EDA, pero no entran a las ventanas ni al modelo.
 #
 # Los .pkl de WESAD ya traen el pecho en unidades físicas (mV, µS, °C, %, g).
 # Lo único que hay que convertir es el ACC de muñeca: el E4 entrega 1/64 g.
@@ -48,9 +52,9 @@ SIGNALS = {
     "chest_Resp": dict(device="chest", channel="Resp", fs=700, unit="%",  role="nucleo",       name="Respiración (pecho)"),
     # BVP: el grupo decidió no usarlo en el modelo (oct. 2026). Queda solo para el EDA, como el EMG.
     "wrist_BVP":  dict(device="wrist", channel="BVP",  fs=64,  unit="u.a.", role="exploratoria", name="BVP (muñeca)"),
-    "wrist_EDA":  dict(device="wrist", channel="EDA",  fs=4,   unit="µS", role="nucleo",       name="EDA (muñeca)"),
+    "wrist_EDA":  dict(device="wrist", channel="EDA",  fs=4,   unit="µS", role="exploratoria", name="EDA (muñeca)", limpiar_eda=True),
     "chest_Temp": dict(device="chest", channel="Temp", fs=700, unit="°C", role="apoyo",        name="Temperatura (pecho)"),
-    "wrist_TEMP": dict(device="wrist", channel="TEMP", fs=4,   unit="°C", role="apoyo",        name="Temperatura (muñeca)"),
+    "wrist_TEMP": dict(device="wrist", channel="TEMP", fs=4,   unit="°C", role="exploratoria", name="Temperatura (muñeca)", limpiar_eda=True),
     "chest_ACC":  dict(device="chest", channel="ACC",  fs=700, unit="g",  role="movimiento",   name="Acelerómetro (pecho)"),
     "wrist_ACC":  dict(device="wrist", channel="ACC",  fs=32,  unit="g",  role="movimiento",   name="Acelerómetro (muñeca)"),
     "chest_EMG":  dict(device="chest", channel="EMG",  fs=700, unit="mV", role="exploratoria", name="EMG (pecho)"),
@@ -59,6 +63,8 @@ SIGNALS = {
 ALL_SIGNALS = list(SIGNALS)
 # Señales que se limpian y salen hacia el objetivo 2
 MODEL_SIGNALS = [k for k, v in SIGNALS.items() if v["role"] in ("nucleo", "apoyo")]
+# Señales que se limpian: las del modelo + las exploratorias que se limpian solo para el EDA
+CLEAN_SIGNALS = MODEL_SIGNALS + [k for k, v in SIGNALS.items() if v.get("limpiar_eda") and k not in MODEL_SIGNALS]
 MOTION_SIGNALS = [k for k, v in SIGNALS.items() if v["role"] == "movimiento"]
 
 # ---------------------------------------------------------------------------
