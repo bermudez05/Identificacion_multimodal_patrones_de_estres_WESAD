@@ -12,7 +12,7 @@ objetivo 2, la extracción de características recorre esta tabla.
 import numpy as np
 import pandas as pd
 
-from .config import MODEL_SIGNALS, TASKS, WINDOW
+from .config import EXPORT_SIGNALS, MODEL_SIGNALS, TASKS, WINDOW
 
 
 def _window_fraction(mask, fs, starts, ends):
@@ -50,7 +50,8 @@ def subject_windows(proc, cfg=WINDOW):
     for task, mapping in TASKS.items():
         w[task] = w.condicion.map(mapping)          # meditación queda en NaN
 
-    for key in MODEL_SIGNALS:
+    # validez de las señales núcleo y de apoyo (la temperatura de pecho se exporta como apoyo a considerar)
+    for key in EXPORT_SIGNALS:
         sig = proc["señales"][key]
         frac_bad = _window_fraction(sig["invalid"], sig["fs"], st, en)
         w[f"frac_valida__{key}"] = 1.0 - frac_bad
@@ -67,6 +68,7 @@ def subject_windows(proc, cfg=WINDOW):
         m = proc["movimiento"][key]
         w[f"movimiento__{key}"] = _window_mean(m["y"], m["fs"], st, en)
 
+    # el resumen de validez se calcula solo sobre las 3 señales núcleo del modelo base
     w["n_modalidades_validas"] = w[[f"valida__{k}" for k in MODEL_SIGNALS]].sum(axis=1)
     w["todas_validas"] = w["n_modalidades_validas"] == len(MODEL_SIGNALS)
     return w

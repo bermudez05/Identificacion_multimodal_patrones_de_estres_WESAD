@@ -34,14 +34,18 @@ POWERLINE_HZ = 50
 # 2. Catálogo de señales
 # ---------------------------------------------------------------------------
 # rol:
-#   "nucleo"      -> se limpia y se usa para el modelo (objetivo 2)
-#   "apoyo"       -> se limpia y se usa, pero se espera menor aporte (temperatura)
+#   "nucleo"      -> se limpia y entra al modelo base (objetivo 2): ECG, EDA y respiración de pecho
+#   "apoyo"       -> apoyo a considerar: se limpia, se revisa su calidad y se exporta en las ventanas,
+#                    pero NO entra al modelo base; el objetivo 2 decide si se agrega como complemento
+#                    (temperatura de pecho)
 #   "movimiento"  -> NO es predictor; sirve para marcar artefactos de movimiento
 #   "exploratoria"-> solo se analiza en el EDA, no va al modelo (EMG, BVP y las señales de muñeca)
 #
 # Decisión del grupo (oct. 2026): el modelo usa solo sensores de PECHO. La EDA y la temperatura de
 # muñeca quedan como exploratorias; se siguen limpiando (limpiar_eda=True) solo para compararlas con
 # las de pecho en el EDA, pero no entran a las ventanas ni al modelo.
+# Decisión del grupo (13 oct. 2026): el modelo base usa solo las 3 señales núcleo de pecho (ECG, EDA y
+# respiración). La temperatura de pecho se mantiene como apoyo a considerar.
 #
 # Los .pkl de WESAD ya traen el pecho en unidades físicas (mV, µS, °C, %, g).
 # Lo único que hay que convertir es el ACC de muñeca: el E4 entrega 1/64 g.
@@ -61,10 +65,14 @@ SIGNALS = {
 }
 
 ALL_SIGNALS = list(SIGNALS)
-# Señales que se limpian y salen hacia el objetivo 2
-MODEL_SIGNALS = [k for k, v in SIGNALS.items() if v["role"] in ("nucleo", "apoyo")]
-# Señales que se limpian: las del modelo + las exploratorias que se limpian solo para el EDA
-CLEAN_SIGNALS = MODEL_SIGNALS + [k for k, v in SIGNALS.items() if v.get("limpiar_eda") and k not in MODEL_SIGNALS]
+# Señales del modelo base (núcleo)
+MODEL_SIGNALS = [k for k, v in SIGNALS.items() if v["role"] == "nucleo"]
+# Apoyo a considerar: se procesa y se exporta igual que el núcleo, pero no entra al modelo base
+SUPPORT_SIGNALS = [k for k, v in SIGNALS.items() if v["role"] == "apoyo"]
+# Señales que salen hacia el objetivo 2 (núcleo + apoyo a considerar)
+EXPORT_SIGNALS = MODEL_SIGNALS + SUPPORT_SIGNALS
+# Señales que se limpian: núcleo + apoyo + las exploratorias que se limpian solo para el EDA
+CLEAN_SIGNALS = EXPORT_SIGNALS + [k for k, v in SIGNALS.items() if v.get("limpiar_eda") and k not in EXPORT_SIGNALS]
 MOTION_SIGNALS = [k for k, v in SIGNALS.items() if v["role"] == "movimiento"]
 
 # ---------------------------------------------------------------------------

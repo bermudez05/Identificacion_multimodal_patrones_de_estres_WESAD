@@ -1,4 +1,4 @@
-sujeto,ECG (pecho),EDA (pecho),Respiración (pecho),Temperatura (pecho),Todas válidas
+sujeto,ECG (pecho),EDA (pecho),Respiración (pecho),Temperatura (pecho) (apoyo),Todas válidas (núcleo)
 S2,100.0,100.0,100.0,100.0,100.0
 S3,100.0,100.0,100.0,100.0,100.0
 S4,100.0,100.0,100.0,100.0,100.0

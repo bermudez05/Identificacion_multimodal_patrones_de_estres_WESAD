@@ -68,7 +68,7 @@ def process_subject(data, sid, root=".", qc=None):
     blocks = etiquetas.condition_blocks(label)
     out = dict(sujeto=f"S{sid}", bloques=blocks, n_label=len(label), señales={}, eventos={})
 
-    for key in CLEAN_SIGNALS:   # modelo (pecho) + EDA y temperatura de muñeca solo para el EDA
+    for key in CLEAN_SIGNALS:   # núcleo + apoyo (pecho) + EDA y temperatura de muñeca solo para el EDA
         x = carga.get_signal(data, key)
         res = limpieza.clean_signal(x, key, qc[key]["excluir"])
         marcar = limpieza.resample_mask(qc[key]["marcar"], SIGNALS[key]["fs"], res["fs"], res["y"].size)

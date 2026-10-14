@@ -186,3 +186,49 @@ def segments_table(masks, key, sid):
             rows.append(dict(sujeto=f"S{sid}", señal=key, criterio=name,
                              inicio_s=s / fs, fin_s=e / fs, duracion_s=(e - s) / fs))
     return rows
+
+
+# ---------------------------------------------------------------------------
+# Calidad fisiológica (etapa 3): ¿la forma de onda sigue siendo interpretable?
+# ---------------------------------------------------------------------------
+def calidad_fisiologica(proc):
+    """Indicadores de calidad fisiológica de las 4 señales del modelo, por bloque de condición.
+
+    A diferencia del QC por muestra, estos indicadores miden si los eventos fisiológicos
+    (latidos, respiraciones, nivel de sudoración, temperatura de piel) son interpretables:
+      - ECG: % de segmentos de 10 s con calidad excelente o aceptable (Zhao y Zhang, 2018)
+        y % de intervalos RR válidos tras la corrección de latidos.
+      - Respiración: % de ciclos válidos (duración de 1.5 a 20 s, sin muestras excluidas).
+      - EDA de pecho: % de muestras válidas según el QC de Kleckner et al. (2018).
+      - Temperatura de pecho: mediana del bloque (°C), para detectar sensores mal adheridos.
+    Devuelve una lista de filas (una por bloque); se resume por sujeto y condición en el notebook 03.
+    """
+    ev, sig = proc["eventos"], proc["señales"]
+    seg = ev["chest_ECG"]["sqi_segmentos"]
+    seg_s = ev["chest_ECG"]["sqi_segmento_s"]
+    t_seg = np.arange(seg.size) * seg_s + seg_s / 2
+    rr = ev["chest_ECG"]["rr"]
+    br = ev["chest_Resp"]["breaths"]
+    rows = []
+    for _, b in proc["bloques"].iterrows():
+        a, z = b.inicio_s, b.fin_s
+        m_seg = (t_seg >= a) & (t_seg < z)
+        rr_b = rr[(rr.t_s >= a) & (rr.t_s < z)]
+        br_b = br[(br.t_s >= a) & (br.t_s < z)]
+
+        def pct_validas(key):
+            s = sig[key]
+            i0, i1 = int(a * s["fs"]), int(z * s["fs"])
+            return 100.0 * (1.0 - s["invalid"][i0:i1].mean())
+
+        t = sig["chest_Temp"]
+        rows.append(dict(
+            sujeto=proc["sujeto"], condicion=b.condicion, bloque=int(b.bloque), duracion_s=float(b.duracion_s),
+            ecg_pct_seg_aceptables=100.0 * (seg[m_seg] >= 1).mean(),
+            ecg_pct_seg_excelentes=100.0 * (seg[m_seg] == 2).mean(),
+            ecg_pct_rr_validos=100.0 * rr_b.valido.mean(),
+            resp_pct_ciclos_validos=100.0 * br_b.valido.mean(),
+            eda_pecho_pct_validas=pct_validas("chest_EDA"),
+            temp_pecho_mediana_c=float(np.median(t["y"][int(a * t["fs"]):int(z * t["fs"])])),
+        ))
+    return rows
