@@ -15,7 +15,7 @@ Stress has measurable physiological signatures: heart rate rises, skin conductan
 1. **Characterise** how stress shows up in each physiological signal (objective 1).
 2. **Prepare** windowed features for binary (*stress vs. no-stress*) and 3-class (*baseline / stress / amusement*) classification (objective 2).
 
-The repository is part of a thesis project. Chapter 1 (exploratory analysis and preprocessing) is complete; the feature-extraction work for chapter 2 is under way.
+The repository is part of a group master's thesis project. Chapter 1 (exploratory analysis and preprocessing) is complete; the feature-extraction work for chapter 2 is under way.
 
 ## Highlights
 
@@ -79,6 +79,10 @@ Python · NumPy · pandas · SciPy · NeuroKit2 · Matplotlib · Seaborn · Jupy
 
 Schmidt, P., Reiss, A., Duerichen, R., Marberger, C., & Van Laerhoven, K. (2018). *Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection.* ICMI 2018.
 
-## Author
+## Team
 
-**Laura Nicole Bermúdez Santa**, Universidad Nacional de Colombia · [GitHub](https://github.com/bermudez05)
+Group thesis project, Master's in Data Science, Pontificia Universidad Javeriana Cali.
+
+- **Laura Nicole Bermúdez Santa** · [@bermudez05](https://github.com/bermudez05)
+- **Natalia Zartha** · [@natzasu13](https://github.com/natzasu13)
+- [@vperilla95](https://github.com/vperilla95)
