@@ -1,0 +1,44 @@
+{
+  "sujetos_train": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11"
+  ],
+  "sujetos_test_no_accedidos": [
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17"
+  ],
+  "total_ventanas_train": 80705,
+  "inicial_significativas": 261,
+  "target_mi": "multiclase",
+  "clases_originales": {
+    "1": "Baseline",
+    "2": "Stress",
+    "3": "Amusement"
+  },
+  "correlacion_umbral_abs_o": 0.9,
+  "porcentaje_retencion_mi_Perc_": 100,
+  "mi_minima_seleccionada_nats": 0.01659383139236459,
+  "mi_maxima_eliminada_nats": NaN,
+  "total_parejas_redundantes": 1890,
+  "matrices_correlacion_bloques": 45,
+  "bloque_maximo_correlacion": 30,
+  "no_elegibles": 0,
+  "eliminadas_correlacion": 179,
+  "eliminadas_baja_mi": 0,
+  "finales": 82,
+  "completo_sin_muestreo": true,
+  "imputacion_MI": "mediana de train por feature",
+  "correlacion": "pairwise complete, Pearson/Spearman, todas las ventanas",
+  "nota": "exploratorio TRAIN; para CV por sujeto reentrenar selección dentro de cada fold"
+}

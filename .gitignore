@@ -13,3 +13,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Large regenerable feature-selection outputs (matrices .npy and figures)
+extraccion_features/wesad_feature_output/**/*.npy
+extraccion_features/wesad_feature_output/**/figuras/
+extraccion_features/wesad_feature_output/**/checkpoints_MI_por_feature/
